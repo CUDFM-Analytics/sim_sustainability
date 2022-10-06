@@ -1,0 +1,454 @@
+---
+title: "Sustainability Analysis"
+subtitle: "Modeling Respondent Perceptions of Sustaining Improvements on Six Dimensions"
+output: html_document  
+author: K Wiggins
+Date: "February - May 2022"
+fontsize: 12pt 
+---  
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+pacman::p_load(tidyverse,
+               janitor,
+              kableExtra,
+              gtsummary,
+              summarytools,
+              broom,
+              ggpubr,
+              sjPlot,
+              patchwork,
+              DT,
+              htmlTable)
+
+
+load("env.RData") 
+load("atlas_env.RData")  
+
+
+create_dt <- function(x){
+  DT::datatable(x,
+                extensions = 'Buttons',
+                options = list(dom = 'Blfrtip',
+                               buttons = c('copy', 'csv', 'excel', 'pdf', 'print'),
+                               lengthMenu = list(c(10,25,50,-1),
+                                                 c(10,25,50,"All"))))
+}
+
+
+```  
+
+## {.tabset .tabset-fade}
+
+### Project Summary {.tabset .tabset-fade .tabset-pills}
+
+#### Contents  
+
+**Lead Investigators**  
+Doug Fernald, Stephanie Gold  
+<br>
+**Aim**  
+Identify any associations between responses and practice characteristics  
+<br>
+
+**Dimensions**
+
+ 1. Behavioral Health (Question 1.7)
+ 2. Health Information Technology Work (Question 1.12)  
+ 3. Additional Improvements (Question 1.18)   
+ 4. 'What'  
+ 5. 'Why'  
+ 6. 'How'  
+ <br>
+**Practice Characteristics**
+<br>
+ 1. OrgType  
+ 2. AgeType  
+ 3. Location  
+ 4. Size  
+ 
+ <br>
+ 
+
+
+#### Files  
+
+
+[Sharepoint Folder](https://olucdenver.sharepoint.com/sites/Sustainability/Shared%20Documents/Forms/AllItems.aspx){target="_blank"}  
+There's a Readme.txt file with the folder structure and contents as well as a [Data Dictionary](https://olucdenver.sharepoint.com/:x:/r/sites/Sustainability/Shared%20Documents/Results/data_dictionary.xlsx?d=w08ee2fa185de49c3bce6ca96ce1ca445&csf=1&web=1&e=aYl9cp)   
+
+
+<span style="color:RebeccaPurple;"> -->></span>[Link to Table Ones generated from SAS](https://olucdenver.sharepoint.com/:x:/r/sites/Sustainability/Shared%20Documents/Results/Descriptives_RQs1-3.xlsx?d=wd0bb4f3bd8a141d38f6cf57f6a4f59ed&csf=1&web=1&e=kCPtHI){target="_blank"}  
+*Includes DVs by practice Characteristics as well as unique practices.*  
+
+[Link to survey](https://olucdenver.sharepoint.com/sites/Sustainability/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FSustainability%2FShared%20Documents%2FResource%20Documents%2FSIMC3%5FFinalProgressReport%20MARKUP%2Epdf&parent=%2Fsites%2FSustainability%2FShared%20Documents%2FResource%20Documents){target="_blank"}  
+
+
+#### IV Frequencies: Bar plots  
+
+We can change these however you want for the actual paper - here are two ways. (Obv any colors / shapes can be changed...)   
+
+```{r}
+facet
+```
+
+
+```{r fig.width=10}
+plot_ageTyp  + plot_location  
+plot_OrgTyp +  plot_size
+```  
+
+#### IV Frequencies: Table    
+
+```{r fig.width=8}
+sust_f_unique %>%
+  dplyr::select(org, size, age, loc) %>% 
+  tbl_summary(
+    percent = "column",
+    label = list(org ~ "Organization Type",
+                 size ~ "Practice Size",
+                 age ~ "Age Type",
+                 loc ~ "Location")) %>%
+  modify_header(label ~ "**Practice Characteristics**") %>%
+  bold_labels()
+
+```   
+
+### RQs 1-3 {.active .tabset .tabset-fade}
+
+#### Responses: Descriptives           
+
+**Bar Charts: Ratings Overall**   
+
+```{r}
+plot_BH / plot_HIT / plot_Addtl
+```
+
+<br>
+
+NB: These includes all `r nrow(sust_f)` responses.  
+<br>   
+
+--- 
+
+**Response rate visualization by prac char:**  
+
+```{r}
+ggplot(sust_f, aes(x = loc, y = BH))+
+    geom_jitter(alpha = .5,
+                height = .2,
+                width = .2,
+                aes(color = BH),
+                show.legend = FALSE) + 
+    facet_grid(age ~ org, margins = TRUE) + 
+    theme(axis.text.x = element_text(hjust = 1, vjust = 1)) + 
+  scale_color_viridis_d(option = "D",
+                      direction = -1) +
+  ggtitle("Respondent Confidence Ratings: Behavioral Health Improvements") + 
+  xlab("")+
+    theme(plot.caption = element_text(hjust = 0, face= "italic"),
+        plot.title.position = "plot", 
+        plot.caption.position =  "plot") 
+```
+
+```{r}
+ggplot(sust_f, aes(x = loc, y = HIT))+
+    geom_jitter(alpha = .5,
+                height = .2,
+                width = .2,
+                aes(color = BH),
+                show.legend = FALSE) + 
+    facet_grid(age ~ org, margins = TRUE) + 
+    theme(axis.text.x = element_text(hjust = 1, vjust = 1)) + 
+  scale_color_viridis_d(option = "D",
+                      direction = -1) +
+  ggtitle("Respondent Confidence Ratings: HIT") + 
+  xlab("")+
+    theme(plot.caption = element_text(hjust = 0, face= "italic"),
+        plot.title.position = "plot", 
+        plot.caption.position =  "plot") 
+```
+
+```{r}
+ggplot(sust_f, aes(x = loc, y = Addtl))+
+    geom_jitter(alpha = .5,
+                height = .2,
+                width = .2,
+                aes(color = BH),
+                show.legend = FALSE) + 
+    facet_grid(age ~ org, margins = TRUE) + 
+    theme(axis.text.x = element_text(hjust = 1, vjust = 1)) + 
+  scale_color_viridis_d(option = "D",
+                      direction = -1) +
+  ggtitle("Respondent Confidence Ratings: Additional Improvements") + 
+  xlab("")+
+    theme(plot.caption = element_text(hjust = 0, face= "italic"),
+        plot.title.position = "plot", 
+        plot.caption.position =  "plot") 
+```  
+
+
+
+
+#### Findings: BH  
+
+
+All comparisons were set at a priori level of significant at $p<=0.05$.  
+
+
+<span style="color:RebeccaPurple;">
+**Proc Mixed**    
+**Linear Mixed Model with Intercept Varying Randomly on Practice ID** </span>    
+
+Responses were modeled using mixed linear models (proc mixed) with random intercept on practice, thus modeling random effects by practice and fixed effects by characteristics on each DV of interest.
+
+The random effect (practice ID) accounting for potential clustering within practices was significant at the $p<0.001$ consistently through all iterations.   
+
+  - Covariance parameter estimates for `pracid` =0.1626 ($Z = 4.21$, $p<0.0001$)  
+  - Residuals: Estimate = 0.4289, $Z=11.14$, $p<0.0001$   
+  
+While the majority of respondents communicated high levels of confidence in their ability to sustain improvements in this category, results varied significantly by OrgType and Location  
+
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
+  - Rural locations demonstrated less confidence in their ability to sustain BH improvements than Urban locations (Estimate = -0.1711, $t=-1.99$, df=227, $p$=0.0477)  
+  - Hospitals, Private Practices, and FQHC's demonstrated statistically significant differences in their ability to sustain BH improvements 
+
+</div>
+
+
+  
+<span style="color:Indigo;">**LS Means**</span>   
+
+
+Least Square means were estimated for each significant characteristic  
+
+| Effect | Characteristic |Estimate| SE | df | t Value | $Pr>|t|$ |
+|:----------|:-------------|:---------|:----------|:-----------|:-------|:------|
+| Location | Urban | 4.3102 | 0.06236 | 227 | 69.12 | <0.0001 |   
+| Location | Rural | 4.1391 | 0.08110 | 227 | 51.03 | <0.0001 | 
+ 
+Effect: OrgType  
+
+| Characteristic |Estimate| SE | df | t Value | $Pr>|t|$ |
+|:-------------|:---------|:----------|:-----------|:-------|:------| 
+| FQHC  |4.5064 |0.08841 |227|50.97  |  <.0001  |   
+| Hosp  |4.0847 |0.09260 |227|44.11 |  <.0001  |  
+| SBC  |4.1782 |0.1561 |227|26.76  |  <.0001  |  
+| priv  |4.1293 |0.06889 |227|59.94  |  <.0001  |  
+    
+
+<span style="color:RebeccaPurple;">**GenMod**  
+**Ordinal Model for Multinomial Data**</span>  
+
+Sensitivity Analyses were also conducted using a three-level ordinal logistic model with cumulative logit link; results were consistent with findings above. Three-level models were calculated as (0=1,2,3; 1=4, 2=5). Location and OrgType were consistently significant.  
+
+#### Findings: HIT  
+
+<span style="color:Indigo;">**Proc Mixed**      
+**Linear Mixed Model with Intercept Varying Randomly on Practice ID  **   </span>   
+Responses were modeled using mixed linear models (proc mixed) with random intercept on practice, thus modeling random effects by practice and fixed effects by characteristics on each DV of interest.
+
+The random effect (practice ID) accounting for potential clustering within practices was significant at the $p<0.001$ consistently through all iterations.   
+
+  - Covariance parameter estimates for `pracid` =0.2196 ($Z = 5.56$, $p<0.0001$)  
+  - Residuals: Estimate = 0.3717, $Z=11.04$, $p<0.0001$   
+
+Of the four characteristics, Type 3 Tests of Fixed Effects indicate statistically significant difference at the p<0.05 level for Organization Type. Respondents from Federally Qualified Health Centers were relatively more confident in their ability to sustain HIT improvements than their corresponding counterparts at hospitals or private practices.   
+
+<span style="color:Indigo;">**LS Means**</span>
+
+| Characteristic |Estimate| SE | df | t Value | $Pr>|t|$ |
+|:-------------|:---------|:----------|:-----------|:-------|:------| 
+| FQHC  |4.5524	 |0.09101	 |227|50.02  |  <.0001  |   
+| Hosp  |4.2216	 |0.09528 |227|44.31 |  <.0001  |  
+| SBC  |4.2469	 |0.1609 |227|26.40 |  <.0001  |  
+| priv  |4.1371	 |0.07086 |227|58.38  |  <.0001  |  
+
+
+<span style="color:RebeccaPurple;">**GenMod**  
+**Ordinal Model for Multinomial Data**</span>    
+
+Sensitivity Analyses were conducted using a three-level ordinal logistic model with cumulative logit link to account for the categorical nature of the response variable. Results were consistent with findings above in that Organization Type was the only characteristic with statistically significant effects. Three-level models were calculated as (0=1,2,3; 1=4, 2=5).
+
+
+####  Findings: Addtl  
+
+
+<span style="color:RebeccaPurple;">
+**Proc Mixed**    
+**Linear Mixed Model with Intercept Varying Randomly on Practice ID** </span>    
+
+Responses were modeled using mixed linear models (proc mixed) with random intercept on practice, thus modeling random effects by practice and fixed effects by characteristics on each DV of interest.
+
+The random effect (practice ID) accounting for potential clustering within practices was significant at the $p<0.001$ consistently through all iterations.   
+
+  - Covariance parameter estimates for `pracid` =0.1203 ($Z$ = 1.95, $p$<0.0255)  
+  - Residuals: Estimate = 0.855, $Z$=11.37, $p$<0.0001   
+
+Of the four characteristics, Type 3 Tests of Fixed Effects indicate statistically significant difference at the p<0.05 level for Organization Type.  
+
+Respondents from Federally Qualified Health Centers were relatively more confident in their ability to sustain Additional improvements than respondents from hospitals and private practices. 
+
+<span style="color:Indigo;">**LS Means**</span>  
+
+| Characteristic |Estimate| SE | df | t Value | $Pr>|t|$ |
+|:-------------|:---------|:----------|:-----------|:-------|:------| 
+| FQHC  |4.4670	 |0.1078	 |227|41.42  |  <.0001  |   
+| Hosp  |3.8227	 |0.1130 |227|33.82 |  <.0001  |  
+| SBC  |4.1338	 |0.1902 |227|21.73 |  <.0001  |  
+| priv  |3.9740	 |0.08414 |227|47.23  |  <.0001  |  
+
+
+<span style="color:RebeccaPurple;">**GenMod**  
+**Ordinal Model for Multinomial Data**</span>  
+
+Sensitivity Analyses were conducted using a three-level ordinal logistic model with cumulative logit link to account for the categorical nature of the response variable. Results were consistent with findings above in that Organization Type was the only characteristic with statistically significant effects. Three-level models were calculated as (0=1,2,3; 1=4, 2=5).   
+
+
+#### Appendix: Clusters & Distributions    
+<br>
+1. Over two-thirds of practices submitted more than 1 responses
+  + 1a) This will likely emerge in correlated errors for our model terms and violate assumptions of independence as well as inaccurately over-represent practices with more than one response in our outcome variable.  
+
+```{r fig.align='left'}
+pracid2 %>%
+  tbl_summary(include = n)
+```
+<br>
+2. The responses are plotted below, with the normal curve overlaid for visualization; each plot displays the mean and SD of responses. DVs are clearly non-normal.  
+
+
+```{r}
+plot_frq(sust_f$BH, type = "h", show.mean = TRUE, show.mean.val = TRUE,
+         normal.curve = TRUE, show.sd = TRUE, normal.curve.color = "blue",
+         normal.curve.size = 3, ylim = c(0,300), title = "Behavioral Health: Confidence in Ability to Sustain Improvements")
+```
+
+```{r}
+plot_frq(sust_f$HIT, type = "h", show.mean = TRUE, show.mean.val = TRUE,
+         normal.curve = TRUE, show.sd = TRUE, normal.curve.color = "blue",
+         normal.curve.size = 3, ylim = c(0,300), title = "Health Information Technology: Confidence in Ability to Sustain Improvements")
+```
+
+```{r}
+plot_frq(sust_f$Addtl, type = "h", show.mean = TRUE, show.mean.val = TRUE,
+         normal.curve = TRUE, show.sd = TRUE, normal.curve.color = "blue",
+         normal.curve.size = 3, ylim = c(0,300), title = "Additional Improvements: Confidence in Ability to Sustain Improvements")
+```  
+
+
+### RQs 5-7 (atlas) {.active .tabset .tabset-fade}
+
+#### Descriptives  
+
+The raw data file had a total 320 rows. (*[file link here](https://olucdenver.sharepoint.com/:x:/r/sites/Sustainability/Shared%20Documents/Data_Raw/SIM_SUST_CODING-8FEB2022.xlsx?d=w4b3996ddf4b24bbba18bf228fbc64c5a&csf=1&web=1&e=lPRhSx)*)  
+
+Bar Chart   
+
+```{r bar_atlas}
+facet_atlas_vars_1
+```  
+<br><br>
+
+The table below shows the percent of 320 with a value of "1", by variable: 
+
+
+```{r dt_atlasYes}
+datatable(Yes_atlas_var_DVs) %>% 
+  formatStyle(
+    'n_response',
+    background = styleColorBar(Yes_atlas_var_DVs$n_response, 'lightgreen'),
+    backgroundSize = '100% 90%',
+    backgroundRepeat = 'no-repeat',
+    backgroundPosition = 'center'
+  ) %>% 
+    formatStyle(
+    columns = c("atlasDV_group"),
+    valueColumns = c("atlasDV_group"),
+    backgroundColor = styleEqual(c("need", "what", "why"),
+                                 c("lightgreen", "lightblue", "orange"))
+  )  
+```   
+
+
+#### Findings   
+
+**Method**  
+
+Responses were modeled using proc glimmix Logistic regressions were run for each dependent variable in SAS 9.4, using proc glimmix (ML estimation with a binary distribution and logit link). Practice ID was included as a class variable. 
+
+**Model**  
+
+$$\hat{Y} = \alpha + pracid(X_1) + size(X_2) + orgTyp(X_3) + location(X_4) + ageTyp(X_5) + u$$  
+<br>  
+
+**Significant Dependent Variables**  
+<br>
+
+**need**  
+
+Significant variables 'need'  
+
+```{r}
+facet_var(sig_atlas_need)
+``` 
+<br>  
+
+**what**   
+
+Significant variables: what    
+
+
+```{r}
+facet_var(sig_atlas_what)
+```     
+
+<br>   
+
+**why**    
+
+Significant variables: why    
+
+
+```{r, fig.height=8}
+facet_var(sig_atlas_why_1)
+
+```  
+
+```{r}
+facet_var(sig_atlas_why_2)
+```
+
+#### Table: Sig Vars  
+
+The table below is interactive; you can click on the heading and sort to see which "Yes" columns appear for each variable.  
+```{r}
+sigs <- Sigs050607
+
+library(DT)
+
+datatable(sigs) %>% 
+  formatStyle(
+    columns = c("AgeTyp", "OrgTyp", "Size", "Location"),
+    valueColumns = c("AgeTyp", "OrgTyp", "Size", "Location"),
+    backgroundColor = styleEqual(c("No", "Yes"),
+                                 c("lightgrey", "lightgreen"))
+  )  
+
+
+```   
+
+<br>
+The folder in Sharepoint ([also here](https://olucdenver.sharepoint.com/:f:/r/sites/Sustainability/Shared%20Documents/Results/SAS%20Results%20Viewer%20Output?csf=1&web=1&e=skmTi3)) has results from the glimmix model reports from SAS.  
+
+ 
+
+
+
+

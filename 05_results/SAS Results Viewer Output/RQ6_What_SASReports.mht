@@ -1,0 +1,4998 @@
+From: "Saved by Internet Explorer 11"
+Subject: SAS Output
+Date: Mon, 9 May 2022 09:34:49 -0600
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Users\wigginki\AppData\Local\Temp\SAS Temporary Files\_TD66980_FM-5VZQ2D3_\sashtml2.htm
+X-MimeOLE: Produced By Microsoft MimeOLE
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><META content=3D"IE=3D5.0000" =
+http-equiv=3D"X-UA-Compatible">
+<TITLE>SAS Output</TITLE>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001">
+<META content=3D"text/html; charset=3Dwindows-1252" =
+http-equiv=3DContent-type>
+<STYLE type=3Dtext/css>.accessiblecaption {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #4f493b; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fdfbf3
+}
+.aftercaption {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; PADDING-TOP: 4pt; =
+BORDER-SPACING: 0px; BACKGROUND-COLOR: #fdfbf3
+}
+.batch {
+	FONT-SIZE: x-small; BORDER-TOP: #4f493b 1px solid; FONT-FAMILY: 'SAS =
+Monospace', 'Courier New', Courier, monospace; BORDER-RIGHT: #4f493b 1px =
+solid; BORDER-COLLAPSE: separate; BORDER-BOTTOM: #4f493b 1px solid; =
+FONT-WEIGHT: normal; COLOR: #000000; PADDING-BOTTOM: 7px; FONT-STYLE: =
+normal; PADDING-TOP: 7px; PADDING-LEFT: 7px; BORDER-SPACING: 1px; =
+BORDER-LEFT: #4f493b 1px solid; PADDING-RIGHT: 7px; BACKGROUND-COLOR: =
+#fdfbf3
+}
+.beforecaption {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: =
+0px; BACKGROUND-COLOR: #fdfbf3
+}
+.body {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: =
+8px; BACKGROUND-COLOR: #fdfbf3; MARGIN-RIGHT: 8px
+}
+.bodydate {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+WIDTH: 100%; VERTICAL-ALIGN: top; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; TEXT-ALIGN: right; BORDER-SPACING: 0px; =
+BACKGROUND-COLOR: #fdfbf3
+}
+.bycontentfolder {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany =
+AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal; MARGIN-LEFT: 6pt
+}
+.byline {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: =
+0px; BACKGROUND-COLOR: #fdfbf3
+}
+.bylinecontainer {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #000000 0px solid; WIDTH: =
+100%; BORDER-BOTTOM: #000000 0px solid; FONT-WEIGHT: normal; COLOR: =
+#000000; FONT-STYLE: normal; BORDER-SPACING: 1px; BORDER-LEFT: #000000 =
+0px solid; BACKGROUND-COLOR: #fdfbf3
+}
+.caption {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: =
+0px; BACKGROUND-COLOR: #fdfbf3
+}
+.cell {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fdfbf3
+}
+.container {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fdfbf3
+}
+.contentfolder {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany =
+AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal; MARGIN-LEFT: 6pt
+}
+.contentitem {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany =
+AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal; MARGIN-LEFT: 6pt
+}
+.contentproclabel {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #4f493b; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#f4f2e9
+}
+.contentprocname {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #4f493b; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#f4f2e9
+}
+.contents {
+	LIST-STYLE-TYPE: decimal; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; MARGIN-LEFT: 8px; BACKGROUND-COLOR: #f4f2e9; =
+MARGIN-RIGHT: 8px
+}
+.contentsdate {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+WIDTH: 100%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #f4f2e9
+}
+.contenttitle {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #4f493b; FONT-STYLE: italic; BACKGROUND-COLOR: =
+#f4f2e9
+}
+.continued {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+WIDTH: 100%; FONT-WEIGHT: bold; COLOR: #4f493b; FONT-STYLE: normal; =
+BORDER-SPACING: 0px; BACKGROUND-COLOR: #fdfbf3
+}
+.data {
+	FONT-SIZE: x-small; BORDER-TOP: #4f493b 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #4f493b 1px solid; =
+BORDER-BOTTOM: #4f493b 1px solid; FONT-WEIGHT: normal; FONT-STYLE: =
+normal; BORDER-LEFT: #4f493b 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.dataemphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #4f493b 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #4f493b 1px solid; =
+BORDER-BOTTOM: #4f493b 1px solid; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: italic; BORDER-LEFT: #4f493b 0px solid; BACKGROUND-COLOR: =
+#ffffff
+}
+.dataemphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #4f493b 0px solid; FONT-FAMILY: =
+'Courier New', Courier, monospace; BORDER-RIGHT: #4f493b 1px solid; =
+BORDER-BOTTOM: #4f493b 1px solid; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: italic; BORDER-LEFT: #4f493b 0px solid; BACKGROUND-COLOR: =
+#ffffff
+}
+.dataempty {
+	FONT-SIZE: x-small; BORDER-TOP: #4f493b 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #4f493b 1px solid; =
+BORDER-BOTTOM: #4f493b 1px solid; FONT-WEIGHT: normal; FONT-STYLE: =
+normal; BORDER-LEFT: #4f493b 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.datafixed {
+	FONT-SIZE: x-small; BORDER-TOP: #4f493b 0px solid; FONT-FAMILY: =
+'Courier New', Courier; BORDER-RIGHT: #4f493b 1px solid; BORDER-BOTTOM: =
+#4f493b 1px solid; FONT-WEIGHT: normal; FONT-STYLE: normal; BORDER-LEFT: =
+#4f493b 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.datastrong {
+	FONT-SIZE: x-small; BORDER-TOP: #4f493b 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #4f493b 1px solid; =
+BORDER-BOTTOM: #4f493b 1px solid; FONT-WEIGHT: bold; COLOR: #000000; =
+FONT-STYLE: normal; BORDER-LEFT: #4f493b 0px solid; BACKGROUND-COLOR: =
+#ffffff
+}
+.datastrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #4f493b 0px solid; FONT-FAMILY: =
+'Courier New', Courier, monospace; BORDER-RIGHT: #4f493b 1px solid; =
+BORDER-BOTTOM: #4f493b 1px solid; FONT-WEIGHT: bold; COLOR: #000000; =
+FONT-STYLE: normal; BORDER-LEFT: #4f493b 0px solid; BACKGROUND-COLOR: =
+#ffffff
+}
+.date {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+WIDTH: 100%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #f4f2e9
+}
+.document {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fdfbf3
+}
+A:link {
+	COLOR: #0000ff
+}
+A:visited {
+	COLOR: #800080
+}
+A:active {
+	COLOR: #800080
+}
+.errorbanner {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fdfbf3
+}
+.errorcontent {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fdfbf3
+}
+.errorcontentfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: =
+normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fdfbf3
+}
+.extendedpage {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 1pt solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #000000 1pt solid; =
+BORDER-BOTTOM: #000000 1pt solid; FONT-WEIGHT: normal; COLOR: #4f493b; =
+FONT-STYLE: italic; TEXT-ALIGN: center; BORDER-LEFT: #000000 1pt solid; =
+BACKGROUND-COLOR: #fdfbf3
+}
+.fatalbanner {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fdfbf3
+}
+.fatalcontent {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fdfbf3
+}
+.fatalcontentfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: =
+normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fdfbf3
+}
+.folderaction {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany =
+AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal; MARGIN-LEFT: 6pt
+}
+.footer {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#e8e6da
+}
+.footeremphasis {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: italic; =
+BACKGROUND-COLOR: #e8e6da
+}
+.footeremphasisfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: 'Courier New', Courier, monospace; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: italic; =
+BACKGROUND-COLOR: #e8e6da
+}
+.footerempty {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#e8e6da
+}
+.footerfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: =
+normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #e8e6da
+}
+.footerstrong {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#e8e6da
+}
+.footerstrongfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: 'Courier New', Courier, monospace; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#e8e6da
+}
+.frame {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fdfbf3
+}
+.graph {
+	FONT-SIZE: x-small; BORDER-TOP: #4f493b 1px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #4f493b 1px solid; =
+BORDER-COLLAPSE: separate; BORDER-BOTTOM: #4f493b 1px solid; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: =
+1px; BORDER-LEFT: #4f493b 1px solid; BACKGROUND-COLOR: #fdfbf3
+}
+.header {
+	FONT-SIZE: x-small; BORDER-TOP: #4f493b 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #4f493b 1px solid; =
+BORDER-BOTTOM: #4f493b 1px solid; FONT-WEIGHT: bold; FONT-STYLE: normal; =
+BORDER-LEFT: #4f493b 0px solid; BACKGROUND-COLOR: #e8e6da
+}
+.headeremphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #4f493b 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #4f493b 1px solid; =
+BORDER-BOTTOM: #4f493b 1px solid; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: italic; BORDER-LEFT: #4f493b 0px solid; BACKGROUND-COLOR: =
+#e8e6da
+}
+.headeremphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #4f493b 0px solid; FONT-FAMILY: =
+'Courier New', Courier, monospace; BORDER-RIGHT: #4f493b 1px solid; =
+BORDER-BOTTOM: #4f493b 1px solid; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: italic; BORDER-LEFT: #4f493b 0px solid; BACKGROUND-COLOR: =
+#e8e6da
+}
+.headerempty {
+	FONT-SIZE: x-small; BORDER-TOP: #4f493b 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #4f493b 1px solid; =
+BORDER-BOTTOM: #4f493b 1px solid; FONT-WEIGHT: bold; FONT-STYLE: normal; =
+BORDER-LEFT: #4f493b 0px solid; BACKGROUND-COLOR: #e8e6da
+}
+.headerfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #4f493b 0px solid; FONT-FAMILY: =
+'Courier New', Courier; BORDER-RIGHT: #4f493b 1px solid; BORDER-BOTTOM: =
+#4f493b 1px solid; FONT-WEIGHT: normal; FONT-STYLE: normal; BORDER-LEFT: =
+#4f493b 0px solid; BACKGROUND-COLOR: #e8e6da
+}
+.headersandfooters {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#e8e6da
+}
+.headerstrong {
+	FONT-SIZE: x-small; BORDER-TOP: #4f493b 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #4f493b 1px solid; =
+BORDER-BOTTOM: #4f493b 1px solid; FONT-WEIGHT: bold; COLOR: #000000; =
+FONT-STYLE: normal; BORDER-LEFT: #4f493b 0px solid; BACKGROUND-COLOR: =
+#e8e6da
+}
+.headerstrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #4f493b 0px solid; FONT-FAMILY: =
+'Courier New', Courier, monospace; BORDER-RIGHT: #4f493b 1px solid; =
+BORDER-BOTTOM: #4f493b 1px solid; FONT-WEIGHT: bold; COLOR: #000000; =
+FONT-STYLE: normal; BORDER-LEFT: #4f493b 0px solid; BACKGROUND-COLOR: =
+#e8e6da
+}
+.heading1 {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.heading2 {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.heading3 {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.heading4 {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.heading5 {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.heading6 {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.index {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #f4f2e9
+}
+.indexaction {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany =
+AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal; MARGIN-LEFT: 6pt
+}
+.indexitem {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany =
+AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal; MARGIN-LEFT: 6pt
+}
+.indexprocname {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #4f493b; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#f4f2e9
+}
+.indextitle {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #4f493b; FONT-STYLE: italic; BACKGROUND-COLOR: =
+#f4f2e9
+}
+.layoutcontainer {
+	BORDER-TOP: #000000 0px solid; BORDER-RIGHT: #000000 0px solid; =
+BORDER-BOTTOM: #000000 0px solid; BORDER-SPACING: 30px; BORDER-LEFT: =
+#000000 0px solid
+}
+.layoutregion {
+	BORDER-TOP: #000000 0px solid; BORDER-RIGHT: #000000 0px solid; =
+BORDER-BOTTOM: #000000 0px solid; BORDER-SPACING: 30px; BORDER-LEFT: =
+#000000 0px solid
+}
+.linecontent {
+	FONT-SIZE: x-small; BORDER-TOP: #4f493b 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #4f493b 1px solid; =
+BORDER-BOTTOM: #4f493b 1px solid; FONT-WEIGHT: normal; FONT-STYLE: =
+normal; BORDER-LEFT: #4f493b 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.list {
+	LIST-STYLE-TYPE: disc; FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany =
+AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal; BACKGROUND-COLOR: #fdfbf3
+}
+.list10 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fdfbf3
+}
+.list2 {
+	LIST-STYLE-TYPE: circle; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fdfbf3
+}
+.list3 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fdfbf3
+}
+.list4 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fdfbf3
+}
+.list5 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fdfbf3
+}
+.list6 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fdfbf3
+}
+.list7 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fdfbf3
+}
+.list8 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fdfbf3
+}
+.list9 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fdfbf3
+}
+.listitem {
+	LIST-STYLE-TYPE: disc; FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany =
+AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal; BACKGROUND-COLOR: #fdfbf3
+}
+.listitem10 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fdfbf3
+}
+.listitem2 {
+	LIST-STYLE-TYPE: circle; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fdfbf3
+}
+.listitem3 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fdfbf3
+}
+.listitem4 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fdfbf3
+}
+.listitem5 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fdfbf3
+}
+.listitem6 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fdfbf3
+}
+.listitem7 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fdfbf3
+}
+.listitem8 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fdfbf3
+}
+.listitem9 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fdfbf3
+}
+.note {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fdfbf3
+}
+.notebanner {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fdfbf3
+}
+.notecontent {
+	FONT-SIZE: x-small; BORDER-TOP: #4f493b 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #4f493b 1px solid; =
+BORDER-BOTTOM: #4f493b 1px solid; FONT-WEIGHT: normal; FONT-STYLE: =
+normal; BORDER-LEFT: #4f493b 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.notecontentfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #4f493b 0px solid; FONT-FAMILY: =
+'Courier New', Courier; BORDER-RIGHT: #4f493b 1px solid; BORDER-BOTTOM: =
+#4f493b 1px solid; FONT-WEIGHT: normal; FONT-STYLE: normal; BORDER-LEFT: =
+#4f493b 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.output {
+	FONT-SIZE: x-small; BORDER-TOP: #4f493b 1px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #4f493b 1px solid; =
+BORDER-COLLAPSE: separate; BORDER-BOTTOM: #4f493b 1px solid; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: =
+1px; BORDER-LEFT: #4f493b 1px solid; BACKGROUND-COLOR: #fdfbf3
+}
+.pageno {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+VERTICAL-ALIGN: top; FONT-WEIGHT: bold; COLOR: #4f493b; FONT-STYLE: =
+normal; TEXT-ALIGN: right; BORDER-SPACING: 0px; BACKGROUND-COLOR: =
+#fdfbf3
+}
+.pages {
+	LIST-STYLE-TYPE: decimal; FONT-SIZE: x-small; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; MARGIN-LEFT: 8px; BACKGROUND-COLOR: #f4f2e9; =
+MARGIN-RIGHT: 8px
+}
+.pagesdate {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+WIDTH: 100%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #f4f2e9
+}
+.pagesitem {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany =
+AMT', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal; MARGIN-LEFT: 6pt
+}
+.pagesproclabel {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #4f493b; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#f4f2e9
+}
+.pagesprocname {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #4f493b; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#f4f2e9
+}
+.pagestitle {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #4f493b; FONT-STYLE: italic; BACKGROUND-COLOR: =
+#f4f2e9
+}
+.paragraph {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fdfbf3
+}
+.parskip {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #000000 0px solid; =
+BORDER-BOTTOM: #000000 0px solid; FONT-WEIGHT: bold; FONT-STYLE: normal; =
+BORDER-SPACING: 0px; BORDER-LEFT: #000000 0px solid
+}
+.prepage {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; TEXT-ALIGN: =
+left; BACKGROUND-COLOR: #fdfbf3
+}
+.proctitle {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #4f493b; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fdfbf3
+}
+.proctitlefixed {
+	FONT-SIZE: x-small; FONT-FAMILY: 'Courier New', Courier, monospace; =
+FONT-WEIGHT: bold; COLOR: #4f493b; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fdfbf3
+}
+.rowfooter {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#e8e6da
+}
+.rowfooteremphasis {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: italic; =
+BACKGROUND-COLOR: #e8e6da
+}
+.rowfooteremphasisfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: 'Courier New', Courier, monospace; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: italic; =
+BACKGROUND-COLOR: #e8e6da
+}
+.rowfooterempty {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#e8e6da
+}
+.rowfooterfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: =
+normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #e8e6da
+}
+.rowfooterstrong {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#e8e6da
+}
+.rowfooterstrongfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: 'Courier New', Courier, monospace; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#e8e6da
+}
+.rowheader {
+	FONT-SIZE: x-small; BORDER-TOP: #4f493b 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #4f493b 1px solid; =
+BORDER-BOTTOM: #4f493b 1px solid; FONT-WEIGHT: bold; FONT-STYLE: normal; =
+BORDER-LEFT: #4f493b 0px solid; BACKGROUND-COLOR: #e8e6da
+}
+.rowheaderemphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #4f493b 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #4f493b 1px solid; =
+BORDER-BOTTOM: #4f493b 1px solid; FONT-WEIGHT: normal; FONT-STYLE: =
+italic; BORDER-LEFT: #4f493b 0px solid; BACKGROUND-COLOR: #e8e6da
+}
+.rowheaderemphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #4f493b 0px solid; FONT-FAMILY: =
+'Courier New', Courier, monospace; BORDER-RIGHT: #4f493b 1px solid; =
+BORDER-BOTTOM: #4f493b 1px solid; FONT-WEIGHT: normal; FONT-STYLE: =
+italic; BORDER-LEFT: #4f493b 0px solid; BACKGROUND-COLOR: #e8e6da
+}
+.rowheaderempty {
+	FONT-SIZE: x-small; BORDER-TOP: #4f493b 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #4f493b 1px solid; =
+BORDER-BOTTOM: #4f493b 1px solid; FONT-WEIGHT: bold; FONT-STYLE: normal; =
+BORDER-LEFT: #4f493b 0px solid; BACKGROUND-COLOR: #e8e6da
+}
+.rowheaderfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #4f493b 0px solid; FONT-FAMILY: =
+'Courier New', Courier; BORDER-RIGHT: #4f493b 1px solid; BORDER-BOTTOM: =
+#4f493b 1px solid; FONT-WEIGHT: normal; FONT-STYLE: normal; BORDER-LEFT: =
+#4f493b 0px solid; BACKGROUND-COLOR: #e8e6da
+}
+.rowheaderstrong {
+	FONT-SIZE: x-small; BORDER-TOP: #4f493b 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #4f493b 1px solid; =
+BORDER-BOTTOM: #4f493b 1px solid; FONT-WEIGHT: bold; FONT-STYLE: normal; =
+BORDER-LEFT: #4f493b 0px solid; BACKGROUND-COLOR: #e8e6da
+}
+.rowheaderstrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #4f493b 0px solid; FONT-FAMILY: =
+'Courier New', Courier, monospace; BORDER-RIGHT: #4f493b 1px solid; =
+BORDER-BOTTOM: #4f493b 1px solid; FONT-WEIGHT: bold; FONT-STYLE: normal; =
+BORDER-LEFT: #4f493b 0px solid; BACKGROUND-COLOR: #e8e6da
+}
+.systemfooter {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fdfbf3
+}
+.systemfooter10 {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fdfbf3
+}
+.systemfooter2 {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fdfbf3
+}
+.systemfooter3 {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fdfbf3
+}
+.systemfooter4 {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fdfbf3
+}
+.systemfooter5 {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fdfbf3
+}
+.systemfooter6 {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fdfbf3
+}
+.systemfooter7 {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fdfbf3
+}
+.systemfooter8 {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fdfbf3
+}
+.systemfooter9 {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fdfbf3
+}
+.systemtitle {
+	FONT-SIZE: small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #4f493b; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fdfbf3
+}
+.systemtitle10 {
+	FONT-SIZE: small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #4f493b; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fdfbf3
+}
+.systemtitle2 {
+	FONT-SIZE: small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #4f493b; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fdfbf3
+}
+.systemtitle3 {
+	FONT-SIZE: small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #4f493b; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fdfbf3
+}
+.systemtitle4 {
+	FONT-SIZE: small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #4f493b; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fdfbf3
+}
+.systemtitle5 {
+	FONT-SIZE: small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #4f493b; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fdfbf3
+}
+.systemtitle6 {
+	FONT-SIZE: small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #4f493b; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fdfbf3
+}
+.systemtitle7 {
+	FONT-SIZE: small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #4f493b; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fdfbf3
+}
+.systemtitle8 {
+	FONT-SIZE: small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #4f493b; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fdfbf3
+}
+.systemtitle9 {
+	FONT-SIZE: small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #4f493b; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fdfbf3
+}
+.systitleandfootercontainer {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #000000 0px solid; WIDTH: =
+100%; BORDER-BOTTOM: #000000 0px solid; FONT-WEIGHT: normal; COLOR: =
+#000000; FONT-STYLE: normal; BORDER-SPACING: 1px; BORDER-LEFT: #000000 =
+0px solid; BACKGROUND-COLOR: #fdfbf3
+}
+.table {
+	BORDER-TOP: #4f493b 1px solid; BORDER-RIGHT: #4f493b 0px solid; =
+BORDER-COLLAPSE: separate; BORDER-BOTTOM: #4f493b 0px solid; =
+BORDER-SPACING: 0px; BORDER-LEFT: #4f493b 1px solid
+}
+.top_stacked_value {
+	BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-BOTTOM: =
+1px; BORDER-LEFT: 0px
+}
+.middle_stacked_value {
+	BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-BOTTOM: =
+1px; PADDING-TOP: 1px; BORDER-LEFT: 0px
+}
+.bottom_stacked_value {
+	BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-TOP: =
+1px; BORDER-LEFT: 0px
+}
+.titleandnotecontainer {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 0px solid; FONT-FAMILY: Arial, =
+'Albany AMT', Helvetica, Helv; BORDER-RIGHT: #000000 0px solid; WIDTH: =
+100%; BORDER-BOTTOM: #000000 0px solid; FONT-WEIGHT: normal; COLOR: =
+#000000; FONT-STYLE: normal; BORDER-SPACING: 1px; BORDER-LEFT: #000000 =
+0px solid; BACKGROUND-COLOR: #fdfbf3
+}
+.titlesandfooters {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #4f493b; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fdfbf3
+}
+.usertext {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fdfbf3
+}
+.warnbanner {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fdfbf3
+}
+.warncontent {
+	FONT-SIZE: x-small; FONT-FAMILY: Arial, 'Albany AMT', Helvetica, Helv; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fdfbf3
+}
+.warncontentfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: 'Courier New', Courier; FONT-WEIGHT: =
+normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fdfbf3
+}
+.l {
+	TEXT-ALIGN: left
+}
+.c {
+	TEXT-ALIGN: center
+}
+.r {
+	TEXT-ALIGN: right
+}
+.d {
+	TEXT-ALIGN: right
+}
+.j {
+	TEXT-ALIGN: justify
+}
+.t {
+	VERTICAL-ALIGN: top
+}
+.m {
+	VERTICAL-ALIGN: middle
+}
+.b {
+	VERTICAL-ALIGN: bottom
+}
+TD {
+	VERTICAL-ALIGN: top
+}
+TH {
+	VERTICAL-ALIGN: top
+}
+.stacked_cell {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; =
+PADDING-RIGHT: 0px
+}
+</STYLE>
+
+<SCRIPT language=3Djavascript type=3Dtext/javascript>
+<!--=20
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</SCRIPT>
+</HEAD>
+<BODY class=3Dbody onload=3Dstartup() onunload=3Dshutdown()>
+<SCRIPT language=3Djavascript type=3Dtext/javascript>
+<!--=20
+var _info =3D navigator.userAgent
+var _ie =3D (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+var _ie64 =3D _info.indexOf("x64") > 0
+
+//-->
+</SCRIPT>
+
+<DIV class=3Dbranch><A name=3DIDX></A>
+<TABLE class=3Dsystitleandfootercontainer cellSpacing=3D1 =
+cellPadding=3D1 rules=3Dnone=20
+width=3D"100%" summary=3D"Page Layout" border=3D0 frame=3Dvoid>
+  <TBODY>
+  <TR>
+    <TD class=3D"c systemtitle">glimmix results for =
+&lt;what_all_improves&gt;=20
+      Refs, IVs: Small, FQHC, Rural, GIM; Ref DV: =
+yes</TD></TR></TBODY></TABLE><BR>
+<DIV class=3D"c proctitle">The GLIMMIX Procedure</DIV>
+<P>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Model Information" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 scope=3Dcolgroup>Model=20
+  Information</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Data Set</TH>
+    <TD class=3D"l data">SUST.ATLAS</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Response Variable</TH>
+    <TD class=3D"l data">what_all_improves</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Response Distribution</TH>
+    <TD class=3D"l data">Binary</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Link Function</TH>
+    <TD class=3D"l data">Logit</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Variance Function</TH>
+    <TD class=3D"l data">Default</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Variance Matrix</TH>
+    <TD class=3D"l data">Diagonal</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Estimation Technique</TH>
+    <TD class=3D"l data">Maximum Likelihood</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Degrees of Freedom Method</TH>
+    <TD class=3D"l =
+data">Residual</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX1></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Class Level Information" frame=3Dbox>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D3 scope=3Dcolgroup>Class Level=20
+  Information</TH></TR>
+  <TR>
+    <TH class=3D"l b header" scope=3Dcol>Class</TH>
+    <TH class=3D"r b header" scope=3Dcol>Levels</TH>
+    <TH class=3D"l b header" scope=3Dcol>Values</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>pracid</TH>
+    <TD class=3D"r data">318</TD>
+    <TD class=3D"l data">9 10 11 12 14 15 16 17 20 24 25 26 27 28 29 30 =
+35 38 43=20
+      50 51 55 56 60 61 68 69 72 73 75 76 78 81 83 84 85 87 90 91 95 98 =
+100 102=20
+      104 106 108 109 111 112 113 115 116 117 121 122 125 127 129 131 =
+133 134=20
+      136 140 141 143 148 152 153 154 155 157 158 159 166 167 168 170 =
+172 176=20
+      178 180 183 185 189 191 192 193 194 195 196 206 2001 2002 2003 =
+2004 2006=20
+      2007 2008 2009 2010 2011 2014 2015 2016 2019 2020 2022 2026 2030 =
+2034 2036=20
+      2040 2042 2047 2056 2057 2059 2060 2061 2062 2063 2065 2066 2067 =
+2068 2070=20
+      2071 2072 2073 2079 2080 2081 2083 2084 2087 2088 2090 2094 2095 =
+2096 2097=20
+      2098 2099 2100 2101 2104 2105 2107 2108 2109 2110 2112 2114 2115 =
+2116 2117=20
+      2119 2120 2121 2122 2123 2124 2125 2126 2127 2130 2131 2132 2133 =
+2134 2135=20
+      2137 2139 2140 2141 2143 2144 2146 2147 2148 2149 2152 2153 2154 =
+2155 2157=20
+      2158 2159 2160 2161 2164 2167 2168 2169 2170 2171 2172 2173 2174 =
+2175 2176=20
+      2181 2183 2184 2185 2186 2188 2189 2191 2192 2196 2197 2198 2199 =
+2200 2201=20
+      2202 2203 2204 2205 2206 2207 2210 2214 2215 2216 2217 2219 2220 =
+2221 2222=20
+      2223 2224 2225 2226 2235 2270 2359 2429 2523 2570 2571 2572 2573 =
+2574 2575=20
+      2576 2577 2578 2579 2580 2581 2585 2586 2587 2588 2589 2590 2591 =
+2592 2593=20
+      2594 2595 2596 2597 2599 2600 2601 2602 2603 2604 2605 2606 2607 =
+2608 2609=20
+      2610 2611 2612 2614 2615 2616 2618 2619 2620 2621 2622 2623 2624 =
+2625 2626=20
+      2627 2628 2629 2630 2631 2632 2633 2634 2635 2636 2637 2638 2639 =
+2640 2641=20
+      2642 2643 2644 2645 2646 2647 2649 2650 2651 2652 3104 =
+3105</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"l data">Large Medium Small</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TD class=3D"r data">4</TD>
+    <TD class=3D"l data">Hosp SBC priv FQHC</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"l data">Urban Rural</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"l data">MPC Ped =
+GIM</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX2></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Number of Observations" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Number of Observations =
+Read</TH>
+    <TD class=3D"r data">318</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Number of Observations =
+Used</TH>
+    <TD class=3D"r data">318</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+
+name=3DIDX3></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Response Profiles" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D3 scope=3Dcolgroup>Response =
+Profile</TH></TR>
+  <TR>
+    <TH class=3D"r b header" scope=3Dcol>Ordered<BR>Value</TH>
+    <TH class=3D"l b header" scope=3Dcol>what_all_improves</TH>
+    <TH class=3D"r b header" =
+scope=3Dcol>Total<BR>Frequency</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>1</TH>
+    <TH class=3D"l data">0</TH>
+    <TD class=3D"r data">221</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>2</TH>
+    <TH class=3D"l data">1</TH>
+    <TD class=3D"r data">97</TD></TR></TBODY>
+  <TFOOT>
+  <TR>
+    <TH class=3D"c b footer" colSpan=3D3>The GLIMMIX procedure is =
+modeling<BR>the=20
+      probability that=20
+what_all_improves=3D'1'.</TH></TR></TFOOT></TABLE></DIV></DIV><BR><A=20
+name=3DIDX4></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Dimensions" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 =
+scope=3Dcolgroup>Dimensions</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Columns in X</TH>
+    <TD class=3D"r data">13</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Columns in Z</TH>
+    <TD class=3D"r data">0</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Subjects (Blocks in V)</TH>
+    <TD class=3D"r data">1</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Max Obs per Subject</TH>
+    <TD class=3D"r data">318</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+
+name=3DIDX5></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Optimization Information" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 scope=3Dcolgroup>Optimization=20
+  Information</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Optimization Technique</TH>
+    <TD class=3D"l data">Newton-Raphson</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Parameters in =
+Optimization</TH>
+    <TD class=3D"l data">9</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Lower Boundaries</TH>
+    <TD class=3D"l data">0</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Upper Boundaries</TH>
+    <TD class=3D"l data">0</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Fixed Effects</TH>
+    <TD class=3D"l data">Not =
+Profiled</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX6></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Iteration History" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D6 scope=3Dcolgroup>Iteration =
+History</TH></TR>
+  <TR>
+    <TH class=3D"r b header" scope=3Dcol>Iteration</TH>
+    <TH class=3D"r b header" scope=3Dcol>Restarts</TH>
+    <TH class=3D"r b header" scope=3Dcol>Evaluations</TH>
+    <TH class=3D"r b header" scope=3Dcol>Objective<BR>Function</TH>
+    <TH class=3D"r b header" scope=3Dcol>Change</TH>
+    <TH class=3D"r b header" =
+scope=3Dcol>Max<BR>Gradient</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">4</TD>
+    <TD class=3D"r data">180.14142082</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">2.727025</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>1</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">179.70257466</TD>
+    <TD class=3D"r data">0.43884615</TD>
+    <TD class=3D"r data">0.20013</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>2</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">179.70114426</TD>
+    <TD class=3D"r data">0.00143041</TD>
+    <TD class=3D"r data">0.001065</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>3</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">179.70114416</TD>
+    <TD class=3D"r data">0.00000010</TD>
+    <TD class=3D"r data" =
+noWrap>7.599E-8</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX7></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Convergence Status" frame=3Dbox>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TD class=3D"c data">Convergence criterion (GCONV=3D1E-8)=20
+  satisfied.</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+name=3DIDX8></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Fit Statistics" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 scope=3Dcolgroup>Fit=20
+  Statistics</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>-2 Log Likelihood</TH>
+    <TD class=3D"r data">359.40</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>AIC (smaller is better)</TH>
+    <TD class=3D"r data">377.40</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>AICC (smaller is better)</TH>
+    <TD class=3D"r data">377.99</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>BIC (smaller is better)</TH>
+    <TD class=3D"r data">411.26</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>CAIC (smaller is better)</TH>
+    <TD class=3D"r data">420.26</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>HQIC (smaller is better)</TH>
+    <TD class=3D"r data">390.93</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Pearson Chi-Square</TH>
+    <TD class=3D"r data">322.60</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Pearson Chi-Square / DF</TH>
+    <TD class=3D"r =
+data">1.04</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX9></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Parameter Estimates" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D10 scope=3Dcolgroup>Parameter =
+Estimates</TH></TR>
+  <TR>
+    <TH class=3D"l b header" scope=3Dcol>Effect</TH>
+    <TH class=3D"l b header" scope=3Dcol>Size</TH>
+    <TH class=3D"l b header" scope=3Dcol>orgTyp</TH>
+    <TH class=3D"l b header" scope=3Dcol>Location</TH>
+    <TH class=3D"l b header" scope=3Dcol>ageTyp</TH>
+    <TH class=3D"r b header" scope=3Dcol>Estimate</TH>
+    <TH class=3D"r b header" scope=3Dcol>Standard<BR>Error</TH>
+    <TH class=3D"r b header" scope=3Dcol>DF</TH>
+    <TH class=3D"r b header" scope=3Dcol>t&nbsp;Value</TH>
+    <TH class=3D"r b header" scope=3Dcol>Pr &gt; |t|</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Intercept</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-0.3972</TD>
+    <TD class=3D"r data">0.5779</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-0.69</TD>
+    <TD class=3D"r data">0.4924</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Urban</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-0.1937</TD>
+    <TD class=3D"r data">0.2994</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-0.65</TD>
+    <TD class=3D"r data">0.5182</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Rural</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Hosp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-1.7055</TD>
+    <TD class=3D"r data">0.5108</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-3.34</TD>
+    <TD class=3D"r data">0.0009</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">SBC</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0.3417</TD>
+    <TD class=3D"r data">0.5889</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.58</TD>
+    <TD class=3D"r data">0.5621</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">priv</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-0.5977</TD>
+    <TD class=3D"r data">0.3226</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-1.85</TD>
+    <TD class=3D"r data">0.0648</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">FQHC</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">MPC</TH>
+    <TD class=3D"r data" noWrap>-0.02002</TD>
+    <TD class=3D"r data">0.5103</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-0.04</TD>
+    <TD class=3D"r data">0.9687</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Ped</TH>
+    <TD class=3D"r data">0.6716</TD>
+    <TD class=3D"r data">0.5595</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">1.20</TD>
+    <TD class=3D"r data">0.2309</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">GIM</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TH class=3D"l data">Large</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-0.1258</TD>
+    <TD class=3D"r data">0.3587</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-0.35</TD>
+    <TD class=3D"r data">0.7260</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TH class=3D"l data">Medium</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0.1837</TD>
+    <TD class=3D"r data">0.3330</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.55</TD>
+    <TD class=3D"r data">0.5815</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TH class=3D"l data">Small</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+name=3DIDX10></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Type III Tests of Fixed Effects" =
+frame=3Dbox>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D5 scope=3Dcolgroup>Type III Tests =
+of Fixed=20
+      Effects</TH></TR>
+  <TR>
+    <TH class=3D"l b header" scope=3Dcol>Effect</TH>
+    <TH class=3D"r b header" scope=3Dcol>Num DF</TH>
+    <TH class=3D"r b header" scope=3Dcol>Den DF</TH>
+    <TH class=3D"r b header" scope=3Dcol>F Value</TH>
+    <TH class=3D"r b header" =
+scope=3Dcol>Pr&nbsp;&gt;&nbsp;F</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TD class=3D"r data">1</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.42</TD>
+    <TD class=3D"r data">0.5182</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">4.74</TD>
+    <TD class=3D"r data">0.0030</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">2.09</TD>
+    <TD class=3D"r data">0.1251</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.43</TD>
+    <TD class=3D"r =
+data">0.6519</TD></TR></TBODY></TABLE></DIV></DIV><BR></DIV>
+<DIV class=3Dbranch>
+<P style=3D"PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3D3>
+<A name=3DIDX11></A>
+<TABLE class=3Dsystitleandfootercontainer cellSpacing=3D1 =
+cellPadding=3D1 rules=3Dnone=20
+width=3D"100%" summary=3D"Page Layout" border=3D0 frame=3Dvoid>
+  <TBODY>
+  <TR>
+    <TD class=3D"c systemtitle">glimmix results for =
+&lt;what_commnty_relxns&gt;=20
+      Refs, IVs: Small, FQHC, Rural, GIM; Ref DV: =
+yes</TD></TR></TBODY></TABLE><BR>
+<DIV class=3D"c proctitle">The GLIMMIX Procedure</DIV>
+<P>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Model Information" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 scope=3Dcolgroup>Model=20
+  Information</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Data Set</TH>
+    <TD class=3D"l data">SUST.ATLAS</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Response Variable</TH>
+    <TD class=3D"l data">what_commnty_relxns</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Response Distribution</TH>
+    <TD class=3D"l data">Binary</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Link Function</TH>
+    <TD class=3D"l data">Logit</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Variance Function</TH>
+    <TD class=3D"l data">Default</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Variance Matrix</TH>
+    <TD class=3D"l data">Diagonal</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Estimation Technique</TH>
+    <TD class=3D"l data">Maximum Likelihood</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Degrees of Freedom Method</TH>
+    <TD class=3D"l =
+data">Residual</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX12></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Class Level Information" frame=3Dbox>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D3 scope=3Dcolgroup>Class Level=20
+  Information</TH></TR>
+  <TR>
+    <TH class=3D"l b header" scope=3Dcol>Class</TH>
+    <TH class=3D"r b header" scope=3Dcol>Levels</TH>
+    <TH class=3D"l b header" scope=3Dcol>Values</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>pracid</TH>
+    <TD class=3D"r data">318</TD>
+    <TD class=3D"l data">9 10 11 12 14 15 16 17 20 24 25 26 27 28 29 30 =
+35 38 43=20
+      50 51 55 56 60 61 68 69 72 73 75 76 78 81 83 84 85 87 90 91 95 98 =
+100 102=20
+      104 106 108 109 111 112 113 115 116 117 121 122 125 127 129 131 =
+133 134=20
+      136 140 141 143 148 152 153 154 155 157 158 159 166 167 168 170 =
+172 176=20
+      178 180 183 185 189 191 192 193 194 195 196 206 2001 2002 2003 =
+2004 2006=20
+      2007 2008 2009 2010 2011 2014 2015 2016 2019 2020 2022 2026 2030 =
+2034 2036=20
+      2040 2042 2047 2056 2057 2059 2060 2061 2062 2063 2065 2066 2067 =
+2068 2070=20
+      2071 2072 2073 2079 2080 2081 2083 2084 2087 2088 2090 2094 2095 =
+2096 2097=20
+      2098 2099 2100 2101 2104 2105 2107 2108 2109 2110 2112 2114 2115 =
+2116 2117=20
+      2119 2120 2121 2122 2123 2124 2125 2126 2127 2130 2131 2132 2133 =
+2134 2135=20
+      2137 2139 2140 2141 2143 2144 2146 2147 2148 2149 2152 2153 2154 =
+2155 2157=20
+      2158 2159 2160 2161 2164 2167 2168 2169 2170 2171 2172 2173 2174 =
+2175 2176=20
+      2181 2183 2184 2185 2186 2188 2189 2191 2192 2196 2197 2198 2199 =
+2200 2201=20
+      2202 2203 2204 2205 2206 2207 2210 2214 2215 2216 2217 2219 2220 =
+2221 2222=20
+      2223 2224 2225 2226 2235 2270 2359 2429 2523 2570 2571 2572 2573 =
+2574 2575=20
+      2576 2577 2578 2579 2580 2581 2585 2586 2587 2588 2589 2590 2591 =
+2592 2593=20
+      2594 2595 2596 2597 2599 2600 2601 2602 2603 2604 2605 2606 2607 =
+2608 2609=20
+      2610 2611 2612 2614 2615 2616 2618 2619 2620 2621 2622 2623 2624 =
+2625 2626=20
+      2627 2628 2629 2630 2631 2632 2633 2634 2635 2636 2637 2638 2639 =
+2640 2641=20
+      2642 2643 2644 2645 2646 2647 2649 2650 2651 2652 3104 =
+3105</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"l data">Large Medium Small</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TD class=3D"r data">4</TD>
+    <TD class=3D"l data">Hosp SBC priv FQHC</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"l data">Urban Rural</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"l data">MPC Ped =
+GIM</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX13></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Number of Observations" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Number of Observations =
+Read</TH>
+    <TD class=3D"r data">318</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Number of Observations =
+Used</TH>
+    <TD class=3D"r data">318</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+
+name=3DIDX14></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Response Profiles" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D3 scope=3Dcolgroup>Response =
+Profile</TH></TR>
+  <TR>
+    <TH class=3D"r b header" scope=3Dcol>Ordered<BR>Value</TH>
+    <TH class=3D"l b header" scope=3Dcol>what_commnty_relxns</TH>
+    <TH class=3D"r b header" =
+scope=3Dcol>Total<BR>Frequency</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>1</TH>
+    <TH class=3D"l data">0</TH>
+    <TD class=3D"r data">279</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>2</TH>
+    <TH class=3D"l data">1</TH>
+    <TD class=3D"r data">39</TD></TR></TBODY>
+  <TFOOT>
+  <TR>
+    <TH class=3D"c b footer" colSpan=3D3>The GLIMMIX procedure is =
+modeling<BR>the=20
+      probability that=20
+what_commnty_relxns=3D'1'.</TH></TR></TFOOT></TABLE></DIV></DIV><BR><A=20
+name=3DIDX15></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Dimensions" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 =
+scope=3Dcolgroup>Dimensions</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Columns in X</TH>
+    <TD class=3D"r data">13</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Columns in Z</TH>
+    <TD class=3D"r data">0</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Subjects (Blocks in V)</TH>
+    <TD class=3D"r data">1</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Max Obs per Subject</TH>
+    <TD class=3D"r data">318</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+
+name=3DIDX16></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Optimization Information" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 scope=3Dcolgroup>Optimization=20
+  Information</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Optimization Technique</TH>
+    <TD class=3D"l data">Newton-Raphson</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Parameters in =
+Optimization</TH>
+    <TD class=3D"l data">9</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Lower Boundaries</TH>
+    <TD class=3D"l data">0</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Upper Boundaries</TH>
+    <TD class=3D"l data">0</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Fixed Effects</TH>
+    <TD class=3D"l data">Not =
+Profiled</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX17></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Iteration History" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D6 scope=3Dcolgroup>Iteration =
+History</TH></TR>
+  <TR>
+    <TH class=3D"r b header" scope=3Dcol>Iteration</TH>
+    <TH class=3D"r b header" scope=3Dcol>Restarts</TH>
+    <TH class=3D"r b header" scope=3Dcol>Evaluations</TH>
+    <TH class=3D"r b header" scope=3Dcol>Objective<BR>Function</TH>
+    <TH class=3D"r b header" scope=3Dcol>Change</TH>
+    <TH class=3D"r b header" =
+scope=3Dcol>Max<BR>Gradient</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">4</TD>
+    <TD class=3D"r data">115.34794112</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">5.697421</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>1</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">113.58826709</TD>
+    <TD class=3D"r data">1.75967402</TD>
+    <TD class=3D"r data">1.095349</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>2</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">113.49468083</TD>
+    <TD class=3D"r data">0.09358626</TD>
+    <TD class=3D"r data">0.072579</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>3</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">113.49407054</TD>
+    <TD class=3D"r data">0.00061029</TD>
+    <TD class=3D"r data">0.000527</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>4</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">113.4940705</TD>
+    <TD class=3D"r data">0.00000004</TD>
+    <TD class=3D"r data" =
+noWrap>3.71E-8</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX18></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Convergence Status" frame=3Dbox>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TD class=3D"c data">Convergence criterion (GCONV=3D1E-8)=20
+  satisfied.</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+name=3DIDX19></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Fit Statistics" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 scope=3Dcolgroup>Fit=20
+  Statistics</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>-2 Log Likelihood</TH>
+    <TD class=3D"r data">226.99</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>AIC (smaller is better)</TH>
+    <TD class=3D"r data">244.99</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>AICC (smaller is better)</TH>
+    <TD class=3D"r data">245.57</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>BIC (smaller is better)</TH>
+    <TD class=3D"r data">278.85</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>CAIC (smaller is better)</TH>
+    <TD class=3D"r data">287.85</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>HQIC (smaller is better)</TH>
+    <TD class=3D"r data">258.51</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Pearson Chi-Square</TH>
+    <TD class=3D"r data">313.69</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Pearson Chi-Square / DF</TH>
+    <TD class=3D"r =
+data">1.02</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX20></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Parameter Estimates" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D10 scope=3Dcolgroup>Parameter =
+Estimates</TH></TR>
+  <TR>
+    <TH class=3D"l b header" scope=3Dcol>Effect</TH>
+    <TH class=3D"l b header" scope=3Dcol>Size</TH>
+    <TH class=3D"l b header" scope=3Dcol>orgTyp</TH>
+    <TH class=3D"l b header" scope=3Dcol>Location</TH>
+    <TH class=3D"l b header" scope=3Dcol>ageTyp</TH>
+    <TH class=3D"r b header" scope=3Dcol>Estimate</TH>
+    <TH class=3D"r b header" scope=3Dcol>Standard<BR>Error</TH>
+    <TH class=3D"r b header" scope=3Dcol>DF</TH>
+    <TH class=3D"r b header" scope=3Dcol>t&nbsp;Value</TH>
+    <TH class=3D"r b header" scope=3Dcol>Pr &gt; |t|</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Intercept</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-0.8615</TD>
+    <TD class=3D"r data">0.6814</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-1.26</TD>
+    <TD class=3D"r data">0.2071</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Urban</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-0.5321</TD>
+    <TD class=3D"r data">0.3940</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-1.35</TD>
+    <TD class=3D"r data">0.1778</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Rural</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Hosp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-1.0142</TD>
+    <TD class=3D"r data">0.7254</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-1.40</TD>
+    <TD class=3D"r data">0.1631</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">SBC</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-0.09803</TD>
+    <TD class=3D"r data">0.8021</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-0.12</TD>
+    <TD class=3D"r data">0.9028</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">priv</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0.2021</TD>
+    <TD class=3D"r data">0.4544</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.44</TD>
+    <TD class=3D"r data">0.6568</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">FQHC</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">MPC</TH>
+    <TD class=3D"r data" noWrap>-0.7509</TD>
+    <TD class=3D"r data">0.5767</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-1.30</TD>
+    <TD class=3D"r data">0.1938</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Ped</TH>
+    <TD class=3D"r data" noWrap>-0.5067</TD>
+    <TD class=3D"r data">0.6640</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-0.76</TD>
+    <TD class=3D"r data">0.4460</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">GIM</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TH class=3D"l data">Large</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-0.5294</TD>
+    <TD class=3D"r data">0.5116</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-1.03</TD>
+    <TD class=3D"r data">0.3015</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TH class=3D"l data">Medium</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0.01063</TD>
+    <TD class=3D"r data">0.4255</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.02</TD>
+    <TD class=3D"r data">0.9801</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TH class=3D"l data">Small</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+name=3DIDX21></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Type III Tests of Fixed Effects" =
+frame=3Dbox>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D5 scope=3Dcolgroup>Type III Tests =
+of Fixed=20
+      Effects</TH></TR>
+  <TR>
+    <TH class=3D"l b header" scope=3Dcol>Effect</TH>
+    <TH class=3D"r b header" scope=3Dcol>Num DF</TH>
+    <TH class=3D"r b header" scope=3Dcol>Den DF</TH>
+    <TH class=3D"r b header" scope=3Dcol>F Value</TH>
+    <TH class=3D"r b header" =
+scope=3Dcol>Pr&nbsp;&gt;&nbsp;F</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TD class=3D"r data">1</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">1.82</TD>
+    <TD class=3D"r data">0.1778</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">1.15</TD>
+    <TD class=3D"r data">0.3302</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.88</TD>
+    <TD class=3D"r data">0.4174</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.68</TD>
+    <TD class=3D"r =
+data">0.5071</TD></TR></TBODY></TABLE></DIV></DIV><BR></DIV>
+<DIV class=3Dbranch>
+<P style=3D"PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3D3>
+<A name=3DIDX22></A>
+<TABLE class=3Dsystitleandfootercontainer cellSpacing=3D1 =
+cellPadding=3D1 rules=3Dnone=20
+width=3D"100%" summary=3D"Page Layout" border=3D0 frame=3Dvoid>
+  <TBODY>
+  <TR>
+    <TD class=3D"c systemtitle">glimmix results for=20
+      &lt;what_dataehr_improves&gt; Refs, IVs: Small, FQHC, Rural, GIM; =
+Ref DV:=20
+      yes</TD></TR></TBODY></TABLE><BR>
+<DIV class=3D"c proctitle">The GLIMMIX Procedure</DIV>
+<P>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Model Information" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 scope=3Dcolgroup>Model=20
+  Information</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Data Set</TH>
+    <TD class=3D"l data">SUST.ATLAS</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Response Variable</TH>
+    <TD class=3D"l data">what_dataehr_improves</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Response Distribution</TH>
+    <TD class=3D"l data">Binary</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Link Function</TH>
+    <TD class=3D"l data">Logit</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Variance Function</TH>
+    <TD class=3D"l data">Default</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Variance Matrix</TH>
+    <TD class=3D"l data">Diagonal</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Estimation Technique</TH>
+    <TD class=3D"l data">Maximum Likelihood</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Degrees of Freedom Method</TH>
+    <TD class=3D"l =
+data">Residual</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX23></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Class Level Information" frame=3Dbox>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D3 scope=3Dcolgroup>Class Level=20
+  Information</TH></TR>
+  <TR>
+    <TH class=3D"l b header" scope=3Dcol>Class</TH>
+    <TH class=3D"r b header" scope=3Dcol>Levels</TH>
+    <TH class=3D"l b header" scope=3Dcol>Values</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>pracid</TH>
+    <TD class=3D"r data">318</TD>
+    <TD class=3D"l data">9 10 11 12 14 15 16 17 20 24 25 26 27 28 29 30 =
+35 38 43=20
+      50 51 55 56 60 61 68 69 72 73 75 76 78 81 83 84 85 87 90 91 95 98 =
+100 102=20
+      104 106 108 109 111 112 113 115 116 117 121 122 125 127 129 131 =
+133 134=20
+      136 140 141 143 148 152 153 154 155 157 158 159 166 167 168 170 =
+172 176=20
+      178 180 183 185 189 191 192 193 194 195 196 206 2001 2002 2003 =
+2004 2006=20
+      2007 2008 2009 2010 2011 2014 2015 2016 2019 2020 2022 2026 2030 =
+2034 2036=20
+      2040 2042 2047 2056 2057 2059 2060 2061 2062 2063 2065 2066 2067 =
+2068 2070=20
+      2071 2072 2073 2079 2080 2081 2083 2084 2087 2088 2090 2094 2095 =
+2096 2097=20
+      2098 2099 2100 2101 2104 2105 2107 2108 2109 2110 2112 2114 2115 =
+2116 2117=20
+      2119 2120 2121 2122 2123 2124 2125 2126 2127 2130 2131 2132 2133 =
+2134 2135=20
+      2137 2139 2140 2141 2143 2144 2146 2147 2148 2149 2152 2153 2154 =
+2155 2157=20
+      2158 2159 2160 2161 2164 2167 2168 2169 2170 2171 2172 2173 2174 =
+2175 2176=20
+      2181 2183 2184 2185 2186 2188 2189 2191 2192 2196 2197 2198 2199 =
+2200 2201=20
+      2202 2203 2204 2205 2206 2207 2210 2214 2215 2216 2217 2219 2220 =
+2221 2222=20
+      2223 2224 2225 2226 2235 2270 2359 2429 2523 2570 2571 2572 2573 =
+2574 2575=20
+      2576 2577 2578 2579 2580 2581 2585 2586 2587 2588 2589 2590 2591 =
+2592 2593=20
+      2594 2595 2596 2597 2599 2600 2601 2602 2603 2604 2605 2606 2607 =
+2608 2609=20
+      2610 2611 2612 2614 2615 2616 2618 2619 2620 2621 2622 2623 2624 =
+2625 2626=20
+      2627 2628 2629 2630 2631 2632 2633 2634 2635 2636 2637 2638 2639 =
+2640 2641=20
+      2642 2643 2644 2645 2646 2647 2649 2650 2651 2652 3104 =
+3105</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"l data">Large Medium Small</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TD class=3D"r data">4</TD>
+    <TD class=3D"l data">Hosp SBC priv FQHC</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"l data">Urban Rural</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"l data">MPC Ped =
+GIM</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX24></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Number of Observations" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Number of Observations =
+Read</TH>
+    <TD class=3D"r data">318</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Number of Observations =
+Used</TH>
+    <TD class=3D"r data">318</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+
+name=3DIDX25></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Response Profiles" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D3 scope=3Dcolgroup>Response =
+Profile</TH></TR>
+  <TR>
+    <TH class=3D"r b header" scope=3Dcol>Ordered<BR>Value</TH>
+    <TH class=3D"l b header" scope=3Dcol>what_dataehr_improves</TH>
+    <TH class=3D"r b header" =
+scope=3Dcol>Total<BR>Frequency</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>1</TH>
+    <TH class=3D"l data">0</TH>
+    <TD class=3D"r data">160</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>2</TH>
+    <TH class=3D"l data">1</TH>
+    <TD class=3D"r data">158</TD></TR></TBODY>
+  <TFOOT>
+  <TR>
+    <TH class=3D"c b footer" colSpan=3D3>The GLIMMIX procedure is =
+modeling the=20
+      probability that=20
+what_dataehr_improves=3D'1'.</TH></TR></TFOOT></TABLE></DIV></DIV><BR><A =
+
+name=3DIDX26></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Dimensions" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 =
+scope=3Dcolgroup>Dimensions</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Columns in X</TH>
+    <TD class=3D"r data">13</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Columns in Z</TH>
+    <TD class=3D"r data">0</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Subjects (Blocks in V)</TH>
+    <TD class=3D"r data">1</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Max Obs per Subject</TH>
+    <TD class=3D"r data">318</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+
+name=3DIDX27></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Optimization Information" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 scope=3Dcolgroup>Optimization=20
+  Information</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Optimization Technique</TH>
+    <TD class=3D"l data">Newton-Raphson</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Parameters in =
+Optimization</TH>
+    <TD class=3D"l data">9</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Lower Boundaries</TH>
+    <TD class=3D"l data">0</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Upper Boundaries</TH>
+    <TD class=3D"l data">0</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Fixed Effects</TH>
+    <TD class=3D"l data">Not =
+Profiled</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX28></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Iteration History" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D6 scope=3Dcolgroup>Iteration =
+History</TH></TR>
+  <TR>
+    <TH class=3D"r b header" scope=3Dcol>Iteration</TH>
+    <TH class=3D"r b header" scope=3Dcol>Restarts</TH>
+    <TH class=3D"r b header" scope=3Dcol>Evaluations</TH>
+    <TH class=3D"r b header" scope=3Dcol>Objective<BR>Function</TH>
+    <TH class=3D"r b header" scope=3Dcol>Change</TH>
+    <TH class=3D"r b header" =
+scope=3Dcol>Max<BR>Gradient</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">4</TD>
+    <TD class=3D"r data">202.20368086</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">1.433435</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>1</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">201.92875632</TD>
+    <TD class=3D"r data">0.27492454</TD>
+    <TD class=3D"r data">0.004801</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>2</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">201.9285905</TD>
+    <TD class=3D"r data">0.00016582</TD>
+    <TD class=3D"r data">0.000018</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>3</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">201.9285905</TD>
+    <TD class=3D"r data">0.00000000</TD>
+    <TD class=3D"r data" =
+noWrap>2.05E-11</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX29></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Convergence Status" frame=3Dbox>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TD class=3D"c data">Convergence criterion (GCONV=3D1E-8)=20
+  satisfied.</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+name=3DIDX30></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Fit Statistics" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 scope=3Dcolgroup>Fit=20
+  Statistics</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>-2 Log Likelihood</TH>
+    <TD class=3D"r data">403.86</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>AIC (smaller is better)</TH>
+    <TD class=3D"r data">421.86</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>AICC (smaller is better)</TH>
+    <TD class=3D"r data">422.44</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>BIC (smaller is better)</TH>
+    <TD class=3D"r data">455.72</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>CAIC (smaller is better)</TH>
+    <TD class=3D"r data">464.72</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>HQIC (smaller is better)</TH>
+    <TD class=3D"r data">435.38</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Pearson Chi-Square</TH>
+    <TD class=3D"r data">319.27</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Pearson Chi-Square / DF</TH>
+    <TD class=3D"r =
+data">1.03</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX31></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Parameter Estimates" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D10 scope=3Dcolgroup>Parameter =
+Estimates</TH></TR>
+  <TR>
+    <TH class=3D"l b header" scope=3Dcol>Effect</TH>
+    <TH class=3D"l b header" scope=3Dcol>Size</TH>
+    <TH class=3D"l b header" scope=3Dcol>orgTyp</TH>
+    <TH class=3D"l b header" scope=3Dcol>Location</TH>
+    <TH class=3D"l b header" scope=3Dcol>ageTyp</TH>
+    <TH class=3D"r b header" scope=3Dcol>Estimate</TH>
+    <TH class=3D"r b header" scope=3Dcol>Standard<BR>Error</TH>
+    <TH class=3D"r b header" scope=3Dcol>DF</TH>
+    <TH class=3D"r b header" scope=3Dcol>t&nbsp;Value</TH>
+    <TH class=3D"r b header" scope=3Dcol>Pr &gt; |t|</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Intercept</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0.7758</TD>
+    <TD class=3D"r data">0.5265</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">1.47</TD>
+    <TD class=3D"r data">0.1417</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Urban</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-0.2448</TD>
+    <TD class=3D"r data">0.2816</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-0.87</TD>
+    <TD class=3D"r data">0.3855</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Rural</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Hosp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-1.7105</TD>
+    <TD class=3D"r data">0.3974</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-4.30</TD>
+    <TD class=3D"r data">&lt;.0001</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">SBC</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-0.7958</TD>
+    <TD class=3D"r data">0.5887</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-1.35</TD>
+    <TD class=3D"r data">0.1774</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">priv</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-1.3939</TD>
+    <TD class=3D"r data">0.3238</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-4.30</TD>
+    <TD class=3D"r data">&lt;.0001</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">FQHC</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">MPC</TH>
+    <TD class=3D"r data">0.4207</TD>
+    <TD class=3D"r data">0.4327</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.97</TD>
+    <TD class=3D"r data">0.3317</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Ped</TH>
+    <TD class=3D"r data">0.6204</TD>
+    <TD class=3D"r data">0.4959</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">1.25</TD>
+    <TD class=3D"r data">0.2118</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">GIM</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TH class=3D"l data">Large</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-0.1276</TD>
+    <TD class=3D"r data">0.3221</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-0.40</TD>
+    <TD class=3D"r data">0.6922</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TH class=3D"l data">Medium</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0.1685</TD>
+    <TD class=3D"r data">0.3095</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.54</TD>
+    <TD class=3D"r data">0.5865</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TH class=3D"l data">Small</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+name=3DIDX32></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Type III Tests of Fixed Effects" =
+frame=3Dbox>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D5 scope=3Dcolgroup>Type III Tests =
+of Fixed=20
+      Effects</TH></TR>
+  <TR>
+    <TH class=3D"l b header" scope=3Dcol>Effect</TH>
+    <TH class=3D"r b header" scope=3Dcol>Num DF</TH>
+    <TH class=3D"r b header" scope=3Dcol>Den DF</TH>
+    <TH class=3D"r b header" scope=3Dcol>F Value</TH>
+    <TH class=3D"r b header" =
+scope=3Dcol>Pr&nbsp;&gt;&nbsp;F</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TD class=3D"r data">1</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.76</TD>
+    <TD class=3D"r data">0.3855</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">8.08</TD>
+    <TD class=3D"r data">&lt;.0001</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.78</TD>
+    <TD class=3D"r data">0.4580</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.46</TD>
+    <TD class=3D"r =
+data">0.6334</TD></TR></TBODY></TABLE></DIV></DIV><BR></DIV>
+<DIV class=3Dbranch>
+<P style=3D"PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3D3>
+<A name=3DIDX33></A>
+<TABLE class=3Dsystitleandfootercontainer cellSpacing=3D1 =
+cellPadding=3D1 rules=3Dnone=20
+width=3D"100%" summary=3D"Page Layout" border=3D0 frame=3Dvoid>
+  <TBODY>
+  <TR>
+    <TD class=3D"c systemtitle">glimmix results for &lt;what_ibh&gt; =
+Refs, IVs:=20
+      Small, FQHC, Rural, GIM; Ref DV: yes</TD></TR></TBODY></TABLE><BR>
+<DIV class=3D"c proctitle">The GLIMMIX Procedure</DIV>
+<P>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Model Information" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 scope=3Dcolgroup>Model=20
+  Information</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Data Set</TH>
+    <TD class=3D"l data">SUST.ATLAS</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Response Variable</TH>
+    <TD class=3D"l data">what_ibh</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Response Distribution</TH>
+    <TD class=3D"l data">Binary</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Link Function</TH>
+    <TD class=3D"l data">Logit</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Variance Function</TH>
+    <TD class=3D"l data">Default</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Variance Matrix</TH>
+    <TD class=3D"l data">Diagonal</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Estimation Technique</TH>
+    <TD class=3D"l data">Maximum Likelihood</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Degrees of Freedom Method</TH>
+    <TD class=3D"l =
+data">Residual</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX34></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Class Level Information" frame=3Dbox>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D3 scope=3Dcolgroup>Class Level=20
+  Information</TH></TR>
+  <TR>
+    <TH class=3D"l b header" scope=3Dcol>Class</TH>
+    <TH class=3D"r b header" scope=3Dcol>Levels</TH>
+    <TH class=3D"l b header" scope=3Dcol>Values</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>pracid</TH>
+    <TD class=3D"r data">318</TD>
+    <TD class=3D"l data">9 10 11 12 14 15 16 17 20 24 25 26 27 28 29 30 =
+35 38 43=20
+      50 51 55 56 60 61 68 69 72 73 75 76 78 81 83 84 85 87 90 91 95 98 =
+100 102=20
+      104 106 108 109 111 112 113 115 116 117 121 122 125 127 129 131 =
+133 134=20
+      136 140 141 143 148 152 153 154 155 157 158 159 166 167 168 170 =
+172 176=20
+      178 180 183 185 189 191 192 193 194 195 196 206 2001 2002 2003 =
+2004 2006=20
+      2007 2008 2009 2010 2011 2014 2015 2016 2019 2020 2022 2026 2030 =
+2034 2036=20
+      2040 2042 2047 2056 2057 2059 2060 2061 2062 2063 2065 2066 2067 =
+2068 2070=20
+      2071 2072 2073 2079 2080 2081 2083 2084 2087 2088 2090 2094 2095 =
+2096 2097=20
+      2098 2099 2100 2101 2104 2105 2107 2108 2109 2110 2112 2114 2115 =
+2116 2117=20
+      2119 2120 2121 2122 2123 2124 2125 2126 2127 2130 2131 2132 2133 =
+2134 2135=20
+      2137 2139 2140 2141 2143 2144 2146 2147 2148 2149 2152 2153 2154 =
+2155 2157=20
+      2158 2159 2160 2161 2164 2167 2168 2169 2170 2171 2172 2173 2174 =
+2175 2176=20
+      2181 2183 2184 2185 2186 2188 2189 2191 2192 2196 2197 2198 2199 =
+2200 2201=20
+      2202 2203 2204 2205 2206 2207 2210 2214 2215 2216 2217 2219 2220 =
+2221 2222=20
+      2223 2224 2225 2226 2235 2270 2359 2429 2523 2570 2571 2572 2573 =
+2574 2575=20
+      2576 2577 2578 2579 2580 2581 2585 2586 2587 2588 2589 2590 2591 =
+2592 2593=20
+      2594 2595 2596 2597 2599 2600 2601 2602 2603 2604 2605 2606 2607 =
+2608 2609=20
+      2610 2611 2612 2614 2615 2616 2618 2619 2620 2621 2622 2623 2624 =
+2625 2626=20
+      2627 2628 2629 2630 2631 2632 2633 2634 2635 2636 2637 2638 2639 =
+2640 2641=20
+      2642 2643 2644 2645 2646 2647 2649 2650 2651 2652 3104 =
+3105</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"l data">Large Medium Small</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TD class=3D"r data">4</TD>
+    <TD class=3D"l data">Hosp SBC priv FQHC</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"l data">Urban Rural</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"l data">MPC Ped =
+GIM</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX35></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Number of Observations" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Number of Observations =
+Read</TH>
+    <TD class=3D"r data">318</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Number of Observations =
+Used</TH>
+    <TD class=3D"r data">318</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+
+name=3DIDX36></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Response Profiles" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D3 scope=3Dcolgroup>Response =
+Profile</TH></TR>
+  <TR>
+    <TH class=3D"r b header" scope=3Dcol>Ordered<BR>Value</TH>
+    <TH class=3D"l b header" scope=3Dcol>what_ibh</TH>
+    <TH class=3D"r b header" =
+scope=3Dcol>Total<BR>Frequency</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>1</TH>
+    <TH class=3D"l data">0</TH>
+    <TD class=3D"r data">158</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>2</TH>
+    <TH class=3D"l data">1</TH>
+    <TD class=3D"r data">160</TD></TR></TBODY>
+  <TFOOT>
+  <TR>
+    <TH class=3D"c b footer" colSpan=3D3>The GLIMMIX procedure is =
+modeling<BR>the=20
+      probability that =
+what_ibh=3D'1'.</TH></TR></TFOOT></TABLE></DIV></DIV><BR><A=20
+name=3DIDX37></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Dimensions" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 =
+scope=3Dcolgroup>Dimensions</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Columns in X</TH>
+    <TD class=3D"r data">13</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Columns in Z</TH>
+    <TD class=3D"r data">0</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Subjects (Blocks in V)</TH>
+    <TD class=3D"r data">1</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Max Obs per Subject</TH>
+    <TD class=3D"r data">318</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+
+name=3DIDX38></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Optimization Information" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 scope=3Dcolgroup>Optimization=20
+  Information</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Optimization Technique</TH>
+    <TD class=3D"l data">Newton-Raphson</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Parameters in =
+Optimization</TH>
+    <TD class=3D"l data">9</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Lower Boundaries</TH>
+    <TD class=3D"l data">0</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Upper Boundaries</TH>
+    <TD class=3D"l data">0</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Fixed Effects</TH>
+    <TD class=3D"l data">Not =
+Profiled</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX39></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Iteration History" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D6 scope=3Dcolgroup>Iteration =
+History</TH></TR>
+  <TR>
+    <TH class=3D"r b header" scope=3Dcol>Iteration</TH>
+    <TH class=3D"r b header" scope=3Dcol>Restarts</TH>
+    <TH class=3D"r b header" scope=3Dcol>Evaluations</TH>
+    <TH class=3D"r b header" scope=3Dcol>Objective<BR>Function</TH>
+    <TH class=3D"r b header" scope=3Dcol>Change</TH>
+    <TH class=3D"r b header" =
+scope=3Dcol>Max<BR>Gradient</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">4</TD>
+    <TD class=3D"r data">215.25533682</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">0.42985</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>1</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">215.11306998</TD>
+    <TD class=3D"r data">0.14226684</TD>
+    <TD class=3D"r data">0.003661</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>2</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">215.11301801</TD>
+    <TD class=3D"r data">0.00005197</TD>
+    <TD class=3D"r data" =
+noWrap>8.941E-6</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX40></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Convergence Status" frame=3Dbox>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TD class=3D"c data">Convergence criterion (ABSGCONV=3D0.00001)=20
+  satisfied.</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+name=3DIDX41></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Fit Statistics" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 scope=3Dcolgroup>Fit=20
+  Statistics</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>-2 Log Likelihood</TH>
+    <TD class=3D"r data">430.23</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>AIC (smaller is better)</TH>
+    <TD class=3D"r data">448.23</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>AICC (smaller is better)</TH>
+    <TD class=3D"r data">448.81</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>BIC (smaller is better)</TH>
+    <TD class=3D"r data">482.08</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>CAIC (smaller is better)</TH>
+    <TD class=3D"r data">491.08</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>HQIC (smaller is better)</TH>
+    <TD class=3D"r data">461.75</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Pearson Chi-Square</TH>
+    <TD class=3D"r data">317.44</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Pearson Chi-Square / DF</TH>
+    <TD class=3D"r =
+data">1.03</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX42></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Parameter Estimates" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D10 scope=3Dcolgroup>Parameter =
+Estimates</TH></TR>
+  <TR>
+    <TH class=3D"l b header" scope=3Dcol>Effect</TH>
+    <TH class=3D"l b header" scope=3Dcol>Size</TH>
+    <TH class=3D"l b header" scope=3Dcol>orgTyp</TH>
+    <TH class=3D"l b header" scope=3Dcol>Location</TH>
+    <TH class=3D"l b header" scope=3Dcol>ageTyp</TH>
+    <TH class=3D"r b header" scope=3Dcol>Estimate</TH>
+    <TH class=3D"r b header" scope=3Dcol>Standard<BR>Error</TH>
+    <TH class=3D"r b header" scope=3Dcol>DF</TH>
+    <TH class=3D"r b header" scope=3Dcol>t&nbsp;Value</TH>
+    <TH class=3D"r b header" scope=3Dcol>Pr &gt; |t|</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Intercept</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0.4826</TD>
+    <TD class=3D"r data">0.4844</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">1.00</TD>
+    <TD class=3D"r data">0.3199</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Urban</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-0.4668</TD>
+    <TD class=3D"r data">0.2737</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-1.71</TD>
+    <TD class=3D"r data">0.0891</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Rural</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Hosp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0.2920</TD>
+    <TD class=3D"r data">0.3691</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.79</TD>
+    <TD class=3D"r data">0.4295</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">SBC</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-1.1447</TD>
+    <TD class=3D"r data">0.5876</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-1.95</TD>
+    <TD class=3D"r data">0.0523</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">priv</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0.05851</TD>
+    <TD class=3D"r data">0.3000</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.20</TD>
+    <TD class=3D"r data">0.8455</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">FQHC</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">MPC</TH>
+    <TD class=3D"r data" noWrap>-0.02025</TD>
+    <TD class=3D"r data">0.3993</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-0.05</TD>
+    <TD class=3D"r data">0.9596</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Ped</TH>
+    <TD class=3D"r data">0.06226</TD>
+    <TD class=3D"r data">0.4665</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.13</TD>
+    <TD class=3D"r data">0.8939</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">GIM</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TH class=3D"l data">Large</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-0.3417</TD>
+    <TD class=3D"r data">0.3039</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-1.12</TD>
+    <TD class=3D"r data">0.2617</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TH class=3D"l data">Medium</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-0.1085</TD>
+    <TD class=3D"r data">0.2944</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-0.37</TD>
+    <TD class=3D"r data">0.7127</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TH class=3D"l data">Small</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+name=3DIDX43></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Type III Tests of Fixed Effects" =
+frame=3Dbox>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D5 scope=3Dcolgroup>Type III Tests =
+of Fixed=20
+      Effects</TH></TR>
+  <TR>
+    <TH class=3D"l b header" scope=3Dcol>Effect</TH>
+    <TH class=3D"r b header" scope=3Dcol>Num DF</TH>
+    <TH class=3D"r b header" scope=3Dcol>Den DF</TH>
+    <TH class=3D"r b header" scope=3Dcol>F Value</TH>
+    <TH class=3D"r b header" =
+scope=3Dcol>Pr&nbsp;&gt;&nbsp;F</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TD class=3D"r data">1</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">2.91</TD>
+    <TD class=3D"r data">0.0891</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">1.93</TD>
+    <TD class=3D"r data">0.1247</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.03</TD>
+    <TD class=3D"r data">0.9671</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.66</TD>
+    <TD class=3D"r =
+data">0.5172</TD></TR></TBODY></TABLE></DIV></DIV><BR></DIV>
+<DIV class=3Dbranch>
+<P style=3D"PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3D3>
+<A name=3DIDX44></A>
+<TABLE class=3Dsystitleandfootercontainer cellSpacing=3D1 =
+cellPadding=3D1 rules=3Dnone=20
+width=3D"100%" summary=3D"Page Layout" border=3D0 frame=3Dvoid>
+  <TBODY>
+  <TR>
+    <TD class=3D"c systemtitle">glimmix results for =
+&lt;what_pt_centered&gt;=20
+      Refs, IVs: Small, FQHC, Rural, GIM; Ref DV: =
+yes</TD></TR></TBODY></TABLE><BR>
+<DIV class=3D"c proctitle">The GLIMMIX Procedure</DIV>
+<P>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Model Information" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 scope=3Dcolgroup>Model=20
+  Information</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Data Set</TH>
+    <TD class=3D"l data">SUST.ATLAS</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Response Variable</TH>
+    <TD class=3D"l data">what_pt_centered</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Response Distribution</TH>
+    <TD class=3D"l data">Binary</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Link Function</TH>
+    <TD class=3D"l data">Logit</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Variance Function</TH>
+    <TD class=3D"l data">Default</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Variance Matrix</TH>
+    <TD class=3D"l data">Diagonal</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Estimation Technique</TH>
+    <TD class=3D"l data">Maximum Likelihood</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Degrees of Freedom Method</TH>
+    <TD class=3D"l =
+data">Residual</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX45></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Class Level Information" frame=3Dbox>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D3 scope=3Dcolgroup>Class Level=20
+  Information</TH></TR>
+  <TR>
+    <TH class=3D"l b header" scope=3Dcol>Class</TH>
+    <TH class=3D"r b header" scope=3Dcol>Levels</TH>
+    <TH class=3D"l b header" scope=3Dcol>Values</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>pracid</TH>
+    <TD class=3D"r data">318</TD>
+    <TD class=3D"l data">9 10 11 12 14 15 16 17 20 24 25 26 27 28 29 30 =
+35 38 43=20
+      50 51 55 56 60 61 68 69 72 73 75 76 78 81 83 84 85 87 90 91 95 98 =
+100 102=20
+      104 106 108 109 111 112 113 115 116 117 121 122 125 127 129 131 =
+133 134=20
+      136 140 141 143 148 152 153 154 155 157 158 159 166 167 168 170 =
+172 176=20
+      178 180 183 185 189 191 192 193 194 195 196 206 2001 2002 2003 =
+2004 2006=20
+      2007 2008 2009 2010 2011 2014 2015 2016 2019 2020 2022 2026 2030 =
+2034 2036=20
+      2040 2042 2047 2056 2057 2059 2060 2061 2062 2063 2065 2066 2067 =
+2068 2070=20
+      2071 2072 2073 2079 2080 2081 2083 2084 2087 2088 2090 2094 2095 =
+2096 2097=20
+      2098 2099 2100 2101 2104 2105 2107 2108 2109 2110 2112 2114 2115 =
+2116 2117=20
+      2119 2120 2121 2122 2123 2124 2125 2126 2127 2130 2131 2132 2133 =
+2134 2135=20
+      2137 2139 2140 2141 2143 2144 2146 2147 2148 2149 2152 2153 2154 =
+2155 2157=20
+      2158 2159 2160 2161 2164 2167 2168 2169 2170 2171 2172 2173 2174 =
+2175 2176=20
+      2181 2183 2184 2185 2186 2188 2189 2191 2192 2196 2197 2198 2199 =
+2200 2201=20
+      2202 2203 2204 2205 2206 2207 2210 2214 2215 2216 2217 2219 2220 =
+2221 2222=20
+      2223 2224 2225 2226 2235 2270 2359 2429 2523 2570 2571 2572 2573 =
+2574 2575=20
+      2576 2577 2578 2579 2580 2581 2585 2586 2587 2588 2589 2590 2591 =
+2592 2593=20
+      2594 2595 2596 2597 2599 2600 2601 2602 2603 2604 2605 2606 2607 =
+2608 2609=20
+      2610 2611 2612 2614 2615 2616 2618 2619 2620 2621 2622 2623 2624 =
+2625 2626=20
+      2627 2628 2629 2630 2631 2632 2633 2634 2635 2636 2637 2638 2639 =
+2640 2641=20
+      2642 2643 2644 2645 2646 2647 2649 2650 2651 2652 3104 =
+3105</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"l data">Large Medium Small</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TD class=3D"r data">4</TD>
+    <TD class=3D"l data">Hosp SBC priv FQHC</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"l data">Urban Rural</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"l data">MPC Ped =
+GIM</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX46></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Number of Observations" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Number of Observations =
+Read</TH>
+    <TD class=3D"r data">318</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Number of Observations =
+Used</TH>
+    <TD class=3D"r data">318</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+
+name=3DIDX47></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Response Profiles" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D3 scope=3Dcolgroup>Response =
+Profile</TH></TR>
+  <TR>
+    <TH class=3D"r b header" scope=3Dcol>Ordered<BR>Value</TH>
+    <TH class=3D"l b header" scope=3Dcol>what_pt_centered</TH>
+    <TH class=3D"r b header" =
+scope=3Dcol>Total<BR>Frequency</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>1</TH>
+    <TH class=3D"l data">0</TH>
+    <TD class=3D"r data">239</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>2</TH>
+    <TH class=3D"l data">1</TH>
+    <TD class=3D"r data">79</TD></TR></TBODY>
+  <TFOOT>
+  <TR>
+    <TH class=3D"c b footer" colSpan=3D3>The GLIMMIX procedure is =
+modeling<BR>the=20
+      probability that=20
+what_pt_centered=3D'1'.</TH></TR></TFOOT></TABLE></DIV></DIV><BR><A=20
+name=3DIDX48></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Dimensions" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 =
+scope=3Dcolgroup>Dimensions</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Columns in X</TH>
+    <TD class=3D"r data">13</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Columns in Z</TH>
+    <TD class=3D"r data">0</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Subjects (Blocks in V)</TH>
+    <TD class=3D"r data">1</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Max Obs per Subject</TH>
+    <TD class=3D"r data">318</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+
+name=3DIDX49></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Optimization Information" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 scope=3Dcolgroup>Optimization=20
+  Information</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Optimization Technique</TH>
+    <TD class=3D"l data">Newton-Raphson</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Parameters in =
+Optimization</TH>
+    <TD class=3D"l data">9</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Lower Boundaries</TH>
+    <TD class=3D"l data">0</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Upper Boundaries</TH>
+    <TD class=3D"l data">0</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Fixed Effects</TH>
+    <TD class=3D"l data">Not =
+Profiled</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX50></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Iteration History" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D6 scope=3Dcolgroup>Iteration =
+History</TH></TR>
+  <TR>
+    <TH class=3D"r b header" scope=3Dcol>Iteration</TH>
+    <TH class=3D"r b header" scope=3Dcol>Restarts</TH>
+    <TH class=3D"r b header" scope=3Dcol>Evaluations</TH>
+    <TH class=3D"r b header" scope=3Dcol>Objective<BR>Function</TH>
+    <TH class=3D"r b header" scope=3Dcol>Change</TH>
+    <TH class=3D"r b header" =
+scope=3Dcol>Max<BR>Gradient</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">4</TD>
+    <TD class=3D"r data">170.84910655</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">3.708271</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>1</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">170.54676745</TD>
+    <TD class=3D"r data">0.30233910</TD>
+    <TD class=3D"r data">0.124392</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>2</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">170.54646519</TD>
+    <TD class=3D"r data">0.00030226</TD>
+    <TD class=3D"r data">0.000192</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>3</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">170.54646519</TD>
+    <TD class=3D"r data">0.00000000</TD>
+    <TD class=3D"r data" =
+noWrap>3.258E-9</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX51></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Convergence Status" frame=3Dbox>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TD class=3D"c data">Convergence criterion (GCONV=3D1E-8)=20
+  satisfied.</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+name=3DIDX52></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Fit Statistics" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 scope=3Dcolgroup>Fit=20
+  Statistics</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>-2 Log Likelihood</TH>
+    <TD class=3D"r data">341.09</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>AIC (smaller is better)</TH>
+    <TD class=3D"r data">359.09</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>AICC (smaller is better)</TH>
+    <TD class=3D"r data">359.68</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>BIC (smaller is better)</TH>
+    <TD class=3D"r data">392.95</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>CAIC (smaller is better)</TH>
+    <TD class=3D"r data">401.95</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>HQIC (smaller is better)</TH>
+    <TD class=3D"r data">372.62</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Pearson Chi-Square</TH>
+    <TD class=3D"r data">316.58</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Pearson Chi-Square / DF</TH>
+    <TD class=3D"r =
+data">1.02</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX53></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Parameter Estimates" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D10 scope=3Dcolgroup>Parameter =
+Estimates</TH></TR>
+  <TR>
+    <TH class=3D"l b header" scope=3Dcol>Effect</TH>
+    <TH class=3D"l b header" scope=3Dcol>Size</TH>
+    <TH class=3D"l b header" scope=3Dcol>orgTyp</TH>
+    <TH class=3D"l b header" scope=3Dcol>Location</TH>
+    <TH class=3D"l b header" scope=3Dcol>ageTyp</TH>
+    <TH class=3D"r b header" scope=3Dcol>Estimate</TH>
+    <TH class=3D"r b header" scope=3Dcol>Standard<BR>Error</TH>
+    <TH class=3D"r b header" scope=3Dcol>DF</TH>
+    <TH class=3D"r b header" scope=3Dcol>t&nbsp;Value</TH>
+    <TH class=3D"r b header" scope=3Dcol>Pr &gt; |t|</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Intercept</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-1.1102</TD>
+    <TD class=3D"r data">0.5657</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-1.96</TD>
+    <TD class=3D"r data">0.0506</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Urban</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-0.2780</TD>
+    <TD class=3D"r data">0.3153</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-0.88</TD>
+    <TD class=3D"r data">0.3786</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Rural</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Hosp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0.4422</TD>
+    <TD class=3D"r data">0.4113</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">1.07</TD>
+    <TD class=3D"r data">0.2832</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">SBC</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-1.6994</TD>
+    <TD class=3D"r data">0.7651</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-2.22</TD>
+    <TD class=3D"r data">0.0271</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">priv</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0.02418</TD>
+    <TD class=3D"r data">0.3516</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.07</TD>
+    <TD class=3D"r data">0.9452</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">FQHC</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">MPC</TH>
+    <TD class=3D"r data">0.1870</TD>
+    <TD class=3D"r data">0.4823</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.39</TD>
+    <TD class=3D"r data">0.6985</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Ped</TH>
+    <TD class=3D"r data">0.9374</TD>
+    <TD class=3D"r data">0.5472</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">1.71</TD>
+    <TD class=3D"r data">0.0877</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">GIM</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TH class=3D"l data">Large</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0.1475</TD>
+    <TD class=3D"r data">0.3344</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.44</TD>
+    <TD class=3D"r data">0.6595</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TH class=3D"l data">Medium</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-0.6935</TD>
+    <TD class=3D"r data">0.3578</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-1.94</TD>
+    <TD class=3D"r data">0.0535</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TH class=3D"l data">Small</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+name=3DIDX54></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Type III Tests of Fixed Effects" =
+frame=3Dbox>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D5 scope=3Dcolgroup>Type III Tests =
+of Fixed=20
+      Effects</TH></TR>
+  <TR>
+    <TH class=3D"l b header" scope=3Dcol>Effect</TH>
+    <TH class=3D"r b header" scope=3Dcol>Num DF</TH>
+    <TH class=3D"r b header" scope=3Dcol>Den DF</TH>
+    <TH class=3D"r b header" scope=3Dcol>F Value</TH>
+    <TH class=3D"r b header" =
+scope=3Dcol>Pr&nbsp;&gt;&nbsp;F</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TD class=3D"r data">1</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.78</TD>
+    <TD class=3D"r data">0.3786</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">2.55</TD>
+    <TD class=3D"r data">0.0558</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">2.54</TD>
+    <TD class=3D"r data">0.0801</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">3.07</TD>
+    <TD class=3D"r =
+data">0.0476</TD></TR></TBODY></TABLE></DIV></DIV><BR></DIV>
+<DIV class=3Dbranch>
+<P style=3D"PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3D3>
+<A name=3DIDX55></A>
+<TABLE class=3Dsystitleandfootercontainer cellSpacing=3D1 =
+cellPadding=3D1 rules=3Dnone=20
+width=3D"100%" summary=3D"Page Layout" border=3D0 frame=3Dvoid>
+  <TBODY>
+  <TR>
+    <TD class=3D"c systemtitle">glimmix results for &lt;what_unknown&gt; =
+Refs,=20
+      IVs: Small, FQHC, Rural, GIM; Ref DV: =
+yes</TD></TR></TBODY></TABLE><BR>
+<DIV class=3D"c proctitle">The GLIMMIX Procedure</DIV>
+<P>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Model Information" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 scope=3Dcolgroup>Model=20
+  Information</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Data Set</TH>
+    <TD class=3D"l data">SUST.ATLAS</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Response Variable</TH>
+    <TD class=3D"l data">what_unknown</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Response Distribution</TH>
+    <TD class=3D"l data">Binary</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Link Function</TH>
+    <TD class=3D"l data">Logit</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Variance Function</TH>
+    <TD class=3D"l data">Default</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Variance Matrix</TH>
+    <TD class=3D"l data">Diagonal</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Estimation Technique</TH>
+    <TD class=3D"l data">Maximum Likelihood</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Degrees of Freedom Method</TH>
+    <TD class=3D"l =
+data">Residual</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX56></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Class Level Information" frame=3Dbox>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D3 scope=3Dcolgroup>Class Level=20
+  Information</TH></TR>
+  <TR>
+    <TH class=3D"l b header" scope=3Dcol>Class</TH>
+    <TH class=3D"r b header" scope=3Dcol>Levels</TH>
+    <TH class=3D"l b header" scope=3Dcol>Values</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>pracid</TH>
+    <TD class=3D"r data">318</TD>
+    <TD class=3D"l data">9 10 11 12 14 15 16 17 20 24 25 26 27 28 29 30 =
+35 38 43=20
+      50 51 55 56 60 61 68 69 72 73 75 76 78 81 83 84 85 87 90 91 95 98 =
+100 102=20
+      104 106 108 109 111 112 113 115 116 117 121 122 125 127 129 131 =
+133 134=20
+      136 140 141 143 148 152 153 154 155 157 158 159 166 167 168 170 =
+172 176=20
+      178 180 183 185 189 191 192 193 194 195 196 206 2001 2002 2003 =
+2004 2006=20
+      2007 2008 2009 2010 2011 2014 2015 2016 2019 2020 2022 2026 2030 =
+2034 2036=20
+      2040 2042 2047 2056 2057 2059 2060 2061 2062 2063 2065 2066 2067 =
+2068 2070=20
+      2071 2072 2073 2079 2080 2081 2083 2084 2087 2088 2090 2094 2095 =
+2096 2097=20
+      2098 2099 2100 2101 2104 2105 2107 2108 2109 2110 2112 2114 2115 =
+2116 2117=20
+      2119 2120 2121 2122 2123 2124 2125 2126 2127 2130 2131 2132 2133 =
+2134 2135=20
+      2137 2139 2140 2141 2143 2144 2146 2147 2148 2149 2152 2153 2154 =
+2155 2157=20
+      2158 2159 2160 2161 2164 2167 2168 2169 2170 2171 2172 2173 2174 =
+2175 2176=20
+      2181 2183 2184 2185 2186 2188 2189 2191 2192 2196 2197 2198 2199 =
+2200 2201=20
+      2202 2203 2204 2205 2206 2207 2210 2214 2215 2216 2217 2219 2220 =
+2221 2222=20
+      2223 2224 2225 2226 2235 2270 2359 2429 2523 2570 2571 2572 2573 =
+2574 2575=20
+      2576 2577 2578 2579 2580 2581 2585 2586 2587 2588 2589 2590 2591 =
+2592 2593=20
+      2594 2595 2596 2597 2599 2600 2601 2602 2603 2604 2605 2606 2607 =
+2608 2609=20
+      2610 2611 2612 2614 2615 2616 2618 2619 2620 2621 2622 2623 2624 =
+2625 2626=20
+      2627 2628 2629 2630 2631 2632 2633 2634 2635 2636 2637 2638 2639 =
+2640 2641=20
+      2642 2643 2644 2645 2646 2647 2649 2650 2651 2652 3104 =
+3105</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"l data">Large Medium Small</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TD class=3D"r data">4</TD>
+    <TD class=3D"l data">Hosp SBC priv FQHC</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"l data">Urban Rural</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"l data">MPC Ped =
+GIM</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX57></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Number of Observations" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Number of Observations =
+Read</TH>
+    <TD class=3D"r data">318</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Number of Observations =
+Used</TH>
+    <TD class=3D"r data">318</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+
+name=3DIDX58></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Response Profiles" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D3 scope=3Dcolgroup>Response =
+Profile</TH></TR>
+  <TR>
+    <TH class=3D"r b header" scope=3Dcol>Ordered<BR>Value</TH>
+    <TH class=3D"l b header" scope=3Dcol>what_unknown</TH>
+    <TH class=3D"r b header" =
+scope=3Dcol>Total<BR>Frequency</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>1</TH>
+    <TH class=3D"l data">0</TH>
+    <TD class=3D"r data">295</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>2</TH>
+    <TH class=3D"l data">1</TH>
+    <TD class=3D"r data">23</TD></TR></TBODY>
+  <TFOOT>
+  <TR>
+    <TH class=3D"c b footer" colSpan=3D3>The GLIMMIX procedure is =
+modeling<BR>the=20
+      probability that =
+what_unknown=3D'1'.</TH></TR></TFOOT></TABLE></DIV></DIV><BR><A=20
+name=3DIDX59></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Dimensions" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 =
+scope=3Dcolgroup>Dimensions</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Columns in X</TH>
+    <TD class=3D"r data">13</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Columns in Z</TH>
+    <TD class=3D"r data">0</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Subjects (Blocks in V)</TH>
+    <TD class=3D"r data">1</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Max Obs per Subject</TH>
+    <TD class=3D"r data">318</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+
+name=3DIDX60></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Optimization Information" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 scope=3Dcolgroup>Optimization=20
+  Information</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Optimization Technique</TH>
+    <TD class=3D"l data">Newton-Raphson</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Parameters in =
+Optimization</TH>
+    <TD class=3D"l data">9</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Lower Boundaries</TH>
+    <TD class=3D"l data">0</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Upper Boundaries</TH>
+    <TD class=3D"l data">0</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Fixed Effects</TH>
+    <TD class=3D"l data">Not =
+Profiled</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX61></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Iteration History" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D6 scope=3Dcolgroup>Iteration =
+History</TH></TR>
+  <TR>
+    <TH class=3D"r b header" scope=3Dcol>Iteration</TH>
+    <TH class=3D"r b header" scope=3Dcol>Restarts</TH>
+    <TH class=3D"r b header" scope=3Dcol>Evaluations</TH>
+    <TH class=3D"r b header" scope=3Dcol>Objective<BR>Function</TH>
+    <TH class=3D"r b header" scope=3Dcol>Change</TH>
+    <TH class=3D"r b header" =
+scope=3Dcol>Max<BR>Gradient</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">4</TD>
+    <TD class=3D"r data">83.128136315</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">12.82601</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>1</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">78.30900709</TD>
+    <TD class=3D"r data">4.81912923</TD>
+    <TD class=3D"r data">2.786791</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>2</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">77.505639479</TD>
+    <TD class=3D"r data">0.80336761</TD>
+    <TD class=3D"r data">0.506641</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>3</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">77.322042571</TD>
+    <TD class=3D"r data">0.18359691</TD>
+    <TD class=3D"r data">0.106924</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>4</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">77.257327606</TD>
+    <TD class=3D"r data">0.06471497</TD>
+    <TD class=3D"r data">0.037453</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>5</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">77.233620509</TD>
+    <TD class=3D"r data">0.02370710</TD>
+    <TD class=3D"r data">0.013769</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>6</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">77.224912448</TD>
+    <TD class=3D"r data">0.00870806</TD>
+    <TD class=3D"r data">0.005064</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>7</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">77.221710726</TD>
+    <TD class=3D"r data">0.00320172</TD>
+    <TD class=3D"r data">0.001863</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>8</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">77.220533121</TD>
+    <TD class=3D"r data">0.00117761</TD>
+    <TD class=3D"r data">0.000685</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>9</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">77.220099937</TD>
+    <TD class=3D"r data">0.00043318</TD>
+    <TD class=3D"r data">0.000252</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>10</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">77.219940582</TD>
+    <TD class=3D"r data">0.00015936</TD>
+    <TD class=3D"r data">0.000093</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>11</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">77.219881959</TD>
+    <TD class=3D"r data">0.00005862</TD>
+    <TD class=3D"r data">0.000034</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>12</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">77.219860393</TD>
+    <TD class=3D"r data">0.00002157</TD>
+    <TD class=3D"r data">0.000013</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>13</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">77.219852459</TD>
+    <TD class=3D"r data">0.00000793</TD>
+    <TD class=3D"r data" =
+noWrap>4.617E-6</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX62></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Convergence Status" frame=3Dbox>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TD class=3D"c data">Convergence criterion (ABSGCONV=3D0.00001)=20
+  satisfied.</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+name=3DIDX63></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Fit Statistics" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 scope=3Dcolgroup>Fit=20
+  Statistics</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>-2 Log Likelihood</TH>
+    <TD class=3D"r data">154.44</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>AIC (smaller is better)</TH>
+    <TD class=3D"r data">172.44</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>AICC (smaller is better)</TH>
+    <TD class=3D"r data">173.02</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>BIC (smaller is better)</TH>
+    <TD class=3D"r data">206.30</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>CAIC (smaller is better)</TH>
+    <TD class=3D"r data">215.30</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>HQIC (smaller is better)</TH>
+    <TD class=3D"r data">185.96</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Pearson Chi-Square</TH>
+    <TD class=3D"r data">303.64</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Pearson Chi-Square / DF</TH>
+    <TD class=3D"r =
+data">0.98</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX64></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Parameter Estimates" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D10 scope=3Dcolgroup>Parameter =
+Estimates</TH></TR>
+  <TR>
+    <TH class=3D"l b header" scope=3Dcol>Effect</TH>
+    <TH class=3D"l b header" scope=3Dcol>Size</TH>
+    <TH class=3D"l b header" scope=3Dcol>orgTyp</TH>
+    <TH class=3D"l b header" scope=3Dcol>Location</TH>
+    <TH class=3D"l b header" scope=3Dcol>ageTyp</TH>
+    <TH class=3D"r b header" scope=3Dcol>Estimate</TH>
+    <TH class=3D"r b header" scope=3Dcol>Standard<BR>Error</TH>
+    <TH class=3D"r b header" scope=3Dcol>DF</TH>
+    <TH class=3D"r b header" scope=3Dcol>t&nbsp;Value</TH>
+    <TH class=3D"r b header" scope=3Dcol>Pr &gt; |t|</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Intercept</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-3.1487</TD>
+    <TD class=3D"r data">1.0098</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-3.12</TD>
+    <TD class=3D"r data">0.0020</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Urban</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-0.7815</TD>
+    <TD class=3D"r data">0.4854</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-1.61</TD>
+    <TD class=3D"r data">0.1084</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Rural</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Hosp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">1.2359</TD>
+    <TD class=3D"r data">0.7864</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">1.57</TD>
+    <TD class=3D"r data">0.1170</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">SBC</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-12.5135</TD>
+    <TD class=3D"r data">465.38</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-0.03</TD>
+    <TD class=3D"r data">0.9786</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">priv</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">1.3150</TD>
+    <TD class=3D"r data">0.6894</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">1.91</TD>
+    <TD class=3D"r data">0.0574</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">FQHC</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">MPC</TH>
+    <TD class=3D"r data">0.3473</TD>
+    <TD class=3D"r data">0.8038</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.43</TD>
+    <TD class=3D"r data">0.6659</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Ped</TH>
+    <TD class=3D"r data">0.4111</TD>
+    <TD class=3D"r data">0.9088</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.45</TD>
+    <TD class=3D"r data">0.6513</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">GIM</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TH class=3D"l data">Large</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-0.2353</TD>
+    <TD class=3D"r data">0.5756</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-0.41</TD>
+    <TD class=3D"r data">0.6830</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TH class=3D"l data">Medium</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-0.2131</TD>
+    <TD class=3D"r data">0.5253</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-0.41</TD>
+    <TD class=3D"r data">0.6853</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TH class=3D"l data">Small</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+name=3DIDX65></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Type III Tests of Fixed Effects" =
+frame=3Dbox>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D5 scope=3Dcolgroup>Type III Tests =
+of Fixed=20
+      Effects</TH></TR>
+  <TR>
+    <TH class=3D"l b header" scope=3Dcol>Effect</TH>
+    <TH class=3D"r b header" scope=3Dcol>Num DF</TH>
+    <TH class=3D"r b header" scope=3Dcol>Den DF</TH>
+    <TH class=3D"r b header" scope=3Dcol>F Value</TH>
+    <TH class=3D"r b header" =
+scope=3Dcol>Pr&nbsp;&gt;&nbsp;F</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TD class=3D"r data">1</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">2.59</TD>
+    <TD class=3D"r data">0.1084</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">1.24</TD>
+    <TD class=3D"r data">0.2940</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.11</TD>
+    <TD class=3D"r data">0.8961</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.11</TD>
+    <TD class=3D"r =
+data">0.8921</TD></TR></TBODY></TABLE></DIV></DIV><BR></DIV>
+<DIV class=3Dbranch>
+<P style=3D"PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3D3>
+<A name=3DIDX66></A>
+<TABLE class=3Dsystitleandfootercontainer cellSpacing=3D1 =
+cellPadding=3D1 rules=3Dnone=20
+width=3D"100%" summary=3D"Page Layout" border=3D0 frame=3Dvoid>
+  <TBODY>
+  <TR>
+    <TD class=3D"c systemtitle">glimmix results for =
+&lt;what_workflows&gt; Refs,=20
+      IVs: Small, FQHC, Rural, GIM; Ref DV: =
+yes</TD></TR></TBODY></TABLE><BR>
+<DIV class=3D"c proctitle">The GLIMMIX Procedure</DIV>
+<P>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Model Information" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 scope=3Dcolgroup>Model=20
+  Information</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Data Set</TH>
+    <TD class=3D"l data">SUST.ATLAS</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Response Variable</TH>
+    <TD class=3D"l data">what_workflows</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Response Distribution</TH>
+    <TD class=3D"l data">Binary</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Link Function</TH>
+    <TD class=3D"l data">Logit</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Variance Function</TH>
+    <TD class=3D"l data">Default</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Variance Matrix</TH>
+    <TD class=3D"l data">Diagonal</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Estimation Technique</TH>
+    <TD class=3D"l data">Maximum Likelihood</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Degrees of Freedom Method</TH>
+    <TD class=3D"l =
+data">Residual</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX67></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Class Level Information" frame=3Dbox>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D3 scope=3Dcolgroup>Class Level=20
+  Information</TH></TR>
+  <TR>
+    <TH class=3D"l b header" scope=3Dcol>Class</TH>
+    <TH class=3D"r b header" scope=3Dcol>Levels</TH>
+    <TH class=3D"l b header" scope=3Dcol>Values</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>pracid</TH>
+    <TD class=3D"r data">318</TD>
+    <TD class=3D"l data">9 10 11 12 14 15 16 17 20 24 25 26 27 28 29 30 =
+35 38 43=20
+      50 51 55 56 60 61 68 69 72 73 75 76 78 81 83 84 85 87 90 91 95 98 =
+100 102=20
+      104 106 108 109 111 112 113 115 116 117 121 122 125 127 129 131 =
+133 134=20
+      136 140 141 143 148 152 153 154 155 157 158 159 166 167 168 170 =
+172 176=20
+      178 180 183 185 189 191 192 193 194 195 196 206 2001 2002 2003 =
+2004 2006=20
+      2007 2008 2009 2010 2011 2014 2015 2016 2019 2020 2022 2026 2030 =
+2034 2036=20
+      2040 2042 2047 2056 2057 2059 2060 2061 2062 2063 2065 2066 2067 =
+2068 2070=20
+      2071 2072 2073 2079 2080 2081 2083 2084 2087 2088 2090 2094 2095 =
+2096 2097=20
+      2098 2099 2100 2101 2104 2105 2107 2108 2109 2110 2112 2114 2115 =
+2116 2117=20
+      2119 2120 2121 2122 2123 2124 2125 2126 2127 2130 2131 2132 2133 =
+2134 2135=20
+      2137 2139 2140 2141 2143 2144 2146 2147 2148 2149 2152 2153 2154 =
+2155 2157=20
+      2158 2159 2160 2161 2164 2167 2168 2169 2170 2171 2172 2173 2174 =
+2175 2176=20
+      2181 2183 2184 2185 2186 2188 2189 2191 2192 2196 2197 2198 2199 =
+2200 2201=20
+      2202 2203 2204 2205 2206 2207 2210 2214 2215 2216 2217 2219 2220 =
+2221 2222=20
+      2223 2224 2225 2226 2235 2270 2359 2429 2523 2570 2571 2572 2573 =
+2574 2575=20
+      2576 2577 2578 2579 2580 2581 2585 2586 2587 2588 2589 2590 2591 =
+2592 2593=20
+      2594 2595 2596 2597 2599 2600 2601 2602 2603 2604 2605 2606 2607 =
+2608 2609=20
+      2610 2611 2612 2614 2615 2616 2618 2619 2620 2621 2622 2623 2624 =
+2625 2626=20
+      2627 2628 2629 2630 2631 2632 2633 2634 2635 2636 2637 2638 2639 =
+2640 2641=20
+      2642 2643 2644 2645 2646 2647 2649 2650 2651 2652 3104 =
+3105</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"l data">Large Medium Small</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TD class=3D"r data">4</TD>
+    <TD class=3D"l data">Hosp SBC priv FQHC</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"l data">Urban Rural</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"l data">MPC Ped =
+GIM</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX68></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Number of Observations" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Number of Observations =
+Read</TH>
+    <TD class=3D"r data">318</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Number of Observations =
+Used</TH>
+    <TD class=3D"r data">318</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+
+name=3DIDX69></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Response Profiles" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D3 scope=3Dcolgroup>Response =
+Profile</TH></TR>
+  <TR>
+    <TH class=3D"r b header" scope=3Dcol>Ordered<BR>Value</TH>
+    <TH class=3D"l b header" scope=3Dcol>what_workflows</TH>
+    <TH class=3D"r b header" =
+scope=3Dcol>Total<BR>Frequency</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>1</TH>
+    <TH class=3D"l data">0</TH>
+    <TD class=3D"r data">121</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>2</TH>
+    <TH class=3D"l data">1</TH>
+    <TD class=3D"r data">197</TD></TR></TBODY>
+  <TFOOT>
+  <TR>
+    <TH class=3D"c b footer" colSpan=3D3>The GLIMMIX procedure is =
+modeling<BR>the=20
+      probability that =
+what_workflows=3D'1'.</TH></TR></TFOOT></TABLE></DIV></DIV><BR><A=20
+name=3DIDX70></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Dimensions" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 =
+scope=3Dcolgroup>Dimensions</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Columns in X</TH>
+    <TD class=3D"r data">13</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Columns in Z</TH>
+    <TD class=3D"r data">0</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Subjects (Blocks in V)</TH>
+    <TD class=3D"r data">1</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Max Obs per Subject</TH>
+    <TD class=3D"r data">318</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+
+name=3DIDX71></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Optimization Information" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 scope=3Dcolgroup>Optimization=20
+  Information</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Optimization Technique</TH>
+    <TD class=3D"l data">Newton-Raphson</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Parameters in =
+Optimization</TH>
+    <TD class=3D"l data">9</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Lower Boundaries</TH>
+    <TD class=3D"l data">0</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Upper Boundaries</TH>
+    <TD class=3D"l data">0</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Fixed Effects</TH>
+    <TD class=3D"l data">Not =
+Profiled</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX72></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Iteration History" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D6 scope=3Dcolgroup>Iteration =
+History</TH></TR>
+  <TR>
+    <TH class=3D"r b header" scope=3Dcol>Iteration</TH>
+    <TH class=3D"r b header" scope=3Dcol>Restarts</TH>
+    <TH class=3D"r b header" scope=3Dcol>Evaluations</TH>
+    <TH class=3D"r b header" scope=3Dcol>Objective<BR>Function</TH>
+    <TH class=3D"r b header" scope=3Dcol>Change</TH>
+    <TH class=3D"r b header" =
+scope=3Dcol>Max<BR>Gradient</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">4</TD>
+    <TD class=3D"r data">204.18819054</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">4.569536</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>1</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">203.96009618</TD>
+    <TD class=3D"r data">0.22809436</TD>
+    <TD class=3D"r data">0.099553</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>2</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">203.95992485</TD>
+    <TD class=3D"r data">0.00017133</TD>
+    <TD class=3D"r data">0.000072</TD></TR>
+  <TR>
+    <TH class=3D"r rowheader" scope=3Drow>3</TH>
+    <TH class=3D"r rowheader" scope=3Drow>0</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">203.95992485</TD>
+    <TD class=3D"r data">0.00000000</TD>
+    <TD class=3D"r data" =
+noWrap>4.72E-11</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX73></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Convergence Status" frame=3Dbox>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TD class=3D"c data">Convergence criterion (GCONV=3D1E-8)=20
+  satisfied.</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+name=3DIDX74></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Fit Statistics" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D2 scope=3Dcolgroup>Fit=20
+  Statistics</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>-2 Log Likelihood</TH>
+    <TD class=3D"r data">407.92</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>AIC (smaller is better)</TH>
+    <TD class=3D"r data">425.92</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>AICC (smaller is better)</TH>
+    <TD class=3D"r data">426.50</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>BIC (smaller is better)</TH>
+    <TD class=3D"r data">459.78</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>CAIC (smaller is better)</TH>
+    <TD class=3D"r data">468.78</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>HQIC (smaller is better)</TH>
+    <TD class=3D"r data">439.44</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Pearson Chi-Square</TH>
+    <TD class=3D"r data">317.79</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Pearson Chi-Square / DF</TH>
+    <TD class=3D"r =
+data">1.03</TD></TR></TBODY></TABLE></DIV></DIV><BR><A=20
+name=3DIDX75></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Parameter Estimates" frame=3Dbox>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D10 scope=3Dcolgroup>Parameter =
+Estimates</TH></TR>
+  <TR>
+    <TH class=3D"l b header" scope=3Dcol>Effect</TH>
+    <TH class=3D"l b header" scope=3Dcol>Size</TH>
+    <TH class=3D"l b header" scope=3Dcol>orgTyp</TH>
+    <TH class=3D"l b header" scope=3Dcol>Location</TH>
+    <TH class=3D"l b header" scope=3Dcol>ageTyp</TH>
+    <TH class=3D"r b header" scope=3Dcol>Estimate</TH>
+    <TH class=3D"r b header" scope=3Dcol>Standard<BR>Error</TH>
+    <TH class=3D"r b header" scope=3Dcol>DF</TH>
+    <TH class=3D"r b header" scope=3Dcol>t&nbsp;Value</TH>
+    <TH class=3D"r b header" scope=3Dcol>Pr &gt; |t|</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>Intercept</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-0.1518</TD>
+    <TD class=3D"r data">0.4923</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-0.31</TD>
+    <TD class=3D"r data">0.7580</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Urban</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0.3319</TD>
+    <TD class=3D"r data">0.2793</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">1.19</TD>
+    <TD class=3D"r data">0.2357</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Rural</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Hosp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-0.04054</TD>
+    <TD class=3D"r data">0.3956</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-0.10</TD>
+    <TD class=3D"r data">0.9184</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">SBC</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0.3016</TD>
+    <TD class=3D"r data">0.6074</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.50</TD>
+    <TD class=3D"r data">0.6199</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">priv</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data" noWrap>-0.6454</TD>
+    <TD class=3D"r data">0.3165</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data" noWrap>-2.04</TD>
+    <TD class=3D"r data">0.0423</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">FQHC</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">MPC</TH>
+    <TD class=3D"r data">0.5446</TD>
+    <TD class=3D"r data">0.4061</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">1.34</TD>
+    <TD class=3D"r data">0.1809</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">Ped</TH>
+    <TD class=3D"r data">0.7155</TD>
+    <TD class=3D"r data">0.4792</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">1.49</TD>
+    <TD class=3D"r data">0.1364</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">GIM</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TH class=3D"l data">Large</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0.5255</TD>
+    <TD class=3D"r data">0.3187</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">1.65</TD>
+    <TD class=3D"r data">0.1002</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TH class=3D"l data">Medium</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0.1276</TD>
+    <TD class=3D"r data">0.2981</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">0.43</TD>
+    <TD class=3D"r data">0.6690</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TH class=3D"l data">Small</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TH class=3D"l data">&nbsp;</TH>
+    <TD class=3D"r data">0</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD>
+    <TD class=3D"r data">.</TD></TR></TBODY></TABLE></DIV></DIV><BR><A =
+name=3DIDX76></A>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#4f493b cellSpacing=3D0 =
+cellPadding=3D3 rules=3Dall=20
+summary=3D"Procedure Glimmix: Type III Tests of Fixed Effects" =
+frame=3Dbox>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c b header" colSpan=3D5 scope=3Dcolgroup>Type III Tests =
+of Fixed=20
+      Effects</TH></TR>
+  <TR>
+    <TH class=3D"l b header" scope=3Dcol>Effect</TH>
+    <TH class=3D"r b header" scope=3Dcol>Num DF</TH>
+    <TH class=3D"r b header" scope=3Dcol>Den DF</TH>
+    <TH class=3D"r b header" scope=3Dcol>F Value</TH>
+    <TH class=3D"r b header" =
+scope=3Dcol>Pr&nbsp;&gt;&nbsp;F</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>location</TH>
+    <TD class=3D"r data">1</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">1.41</TD>
+    <TD class=3D"r data">0.2357</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>orgTyp</TH>
+    <TD class=3D"r data">3</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">2.50</TD>
+    <TD class=3D"r data">0.0592</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>ageTyp</TH>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">1.18</TD>
+    <TD class=3D"r data">0.3082</TD></TR>
+  <TR>
+    <TH class=3D"l rowheader" scope=3Drow>size</TH>
+    <TD class=3D"r data">2</TD>
+    <TD class=3D"r data">309</TD>
+    <TD class=3D"r data">1.45</TD>
+    <TD=20
+class=3D"r =
+data">0.2356</TD></TR></TBODY></TABLE></DIV></DIV><BR></DIV></BODY></HTML=
+>

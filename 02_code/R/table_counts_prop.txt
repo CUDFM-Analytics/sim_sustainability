@@ -1,0 +1,13 @@
+Characteristic   Count	Proportion(%)
+FQHC       81          25.47
+Hosp       57          17.92
+Private   154          48.43
+SBD        26           8.18
+Small     124          38.99
+Medium    100          31.45
+Large      94          29.56
+GIM        32          10.06
+MPC       209          65.72
+Ped        77          24.21
+Rural      96          30.19
+Urban     222          69.81
